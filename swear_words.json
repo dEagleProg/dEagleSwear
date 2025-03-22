@@ -1,308 +1,4182 @@
 {
-    "swear_words": {
-      "russian": [
-        {"word": "блять", "translations": {"english": "fuck", "spanish": "joder"}},
-        {"word": "хуй", "translations": {"english": "dick", "spanish": "verga"}},
-        {"word": "пиздец", "translations": {"english": "fucked up", "spanish": "jodido"}},
-        {"word": "ебать", "translations": {"english": "fuck", "spanish": "chingar"}},
-        {"word": "сука", "translations": {"english": "bitch", "spanish": "puta"}},
-        {"word": "мудак", "translations": {"english": "asshole", "spanish": "cabrón"}},
-        {"word": "гавно", "translations": {"english": "shit", "spanish": "mierda"}},
-        {"word": "залупа", "translations": {"english": "dickhead", "spanish": "pija"}},
-        {"word": "долбоёб", "translations": {"english": "dumbass", "spanish": "pendejo"}},
-        {"word": "пидор", "translations": {"english": "faggot", "spanish": "maricón"}},
-        {"word": "жопа", "translations": {"english": "ass", "spanish": "culo"}},
-        {"word": "уёбок", "translations": {"english": "freak", "spanish": "idiota"}},
-        {"word": "срать", "translations": {"english": "shit", "spanish": "cagar"}},
-        {"word": "нахуй", "translations": {"english": "to hell", "spanish": "al carajo"}},
-        {"word": "пизда", "translations": {"english": "cunt", "spanish": "coño"}},
-        {"word": "ебаный", "translations": {"english": "fucking", "spanish": "jodido"}},
-        {"word": "хуёво", "translations": {"english": "shitty", "spanish": "mierdoso"}},
-        {"word": "блядина", "translations": {"english": "whore", "spanish": "putona"}},
-        {"word": "пиздецки", "translations": {"english": "fucked", "spanish": "jodidamente"}},
-        {"word": "хуета", "translations": {"english": "bullshit", "spanish": "mierda"}},
-        {"word": "ебало", "translations": {"english": "face (rude)", "spanish": "cara de mierda"}},
-        {"word": "хуйня", "translations": {"english": "crap", "spanish": "tontería"}},
-        {"word": "сучка", "translations": {"english": "little bitch", "spanish": "putilla"}},
-        {"word": "ебаться", "translations": {"english": "fuck around", "spanish": "joderse"}},
-        {"word": "пидорас", "translations": {"english": "faggot", "spanish": "marica"}},
-        {"word": "говнюк", "translations": {"english": "shithead", "spanish": "mierdoso"}},
-        {"word": "засранец", "translations": {"english": "jerk", "spanish": "gilipollas"}},
-        {"word": "ебануть", "translations": {"english": "fuck up", "spanish": "joderlo"}},
-        {"word": "шлюха", "translations": {"english": "slut", "spanish": "puta"}},
-        {"word": "пиздить", "translations": {"english": "beat", "spanish": "dar una paliza"}},
-        {"word": "дерьмо", "translations": {"english": "shit", "spanish": "mierda"}},
-        {"word": "ебарь", "translations": {"english": "fucker", "spanish": "chingón"}},
-        {"word": "хуйло", "translations": {"english": "dick", "spanish": "vergon"}},
-        {"word": "бля", "translations": {"english": "damn", "spanish": "carajo"}},
-        {"word": "пиздюли", "translations": {"english": "beating", "spanish": "golpes"}},
-        {"word": "срака", "translations": {"english": "ass", "spanish": "culo"}},
-        {"word": "ебанат", "translations": {"english": "nutcase", "spanish": "loco"}},
-        {"word": "хуесос", "translations": {"english": "cocksucker", "spanish": "mamón"}},
-        {"word": "пиздеж", "translations": {"english": "bullshit", "spanish": "pendejada"}},
-        {"word": "мразь", "translations": {"english": "scum", "spanish": "basura"}},
-        {"word": "ебучая", "translations": {"english": "fucking", "spanish": "puta"}},
-        {"word": "засрать", "translations": {"english": "fuck up", "spanish": "cagarla"}},
-        {"word": "пиздобол", "translations": {"english": "liar", "spanish": "mentiroso"}},
-        {"word": "хуяк", "translations": {"english": "whack", "spanish": "golpe"}},
-        {"word": "еблан", "translations": {"english": "moron", "spanish": "imbécil"}},
-        {"word": "срань", "translations": {"english": "shit", "spanish": "mierda"}},
-        {"word": "пиздецкая", "translations": {"english": "fucked", "spanish": "jodida"}},
-        {"word": "хуёвый", "translations": {"english": "crappy", "spanish": "mierdoso"}},
-        {"word": "блядь", "translations": {"english": "whore", "spanish": "puta"}},
-        {"word": "пиздануть", "translations": {"english": "hit", "spanish": "dar un golpe"}},
-        {"word": "говноед", "translations": {"english": "shit-eater", "spanish": "comemierda"}},
-        {"word": "хуйпиздец", "translations": {"english": "total fuck", "spanish": "jodido total"}},
-        {"word": "ебень", "translations": {"english": "mess", "spanish": "desmadre"}},
-        {"word": "пиздюк", "translations": {"english": "brat", "spanish": "mocoso"}},
-        {"word": "сраный", "translations": {"english": "shitty", "spanish": "mierdoso"}},
-        {"word": "хуйнуть", "translations": {"english": "smack", "spanish": "dar"}},
-        {"word": "блядеж", "translations": {"english": "whoring", "spanish": "puteria"}},
-        {"word": "хуйняшка", "translations": {"english": "little crap", "spanish": "mierdita"}},
-        {"word": "пиздолиз", "translations": {"english": "pussy-licker", "spanish": "lamecoños"}},
-        {"word": "ебливый", "translations": {"english": "horny", "spanish": "caliente"}},
-        {"word": "сраться", "translations": {"english": "shit oneself", "spanish": "cagarse"}},
-        {"word": "пиздануться", "translations": {"english": "go nuts", "spanish": "volverse loco"}},
-        {"word": "хуйство", "translations": {"english": "dickery", "spanish": "vergonada"}},
-        {"word": "ебаная", "translations": {"english": "fucking", "spanish": "jodida"}},
-        {"word": "хуйзнает", "translations": {"english": "who the fuck knows", "spanish": "quién carajo sabe"}},
-        {"word": "блядство", "translations": {"english": "whoredom", "spanish": "puteria"}},
-        {"word": "сучонок", "translations": {"english": "little bastard", "spanish": "hijoputa"}},
-        {"word": "хуйпизда", "translations": {"english": "fuck-cunt", "spanish": "jodercoño"}},
-        {"word": "пиздопроёбина", "translations": {"english": "fuck-up", "spanish": "desmadre"}},
-        {"word": "ебак", "translations": {"english": "fucker", "spanish": "chingador"}},
-        {"word": "хуйнятина", "translations": {"english": "shitty thing", "spanish": "mierdada"}},
-        {"word": "пиздюлина", "translations": {"english": "little cunt", "spanish": "coñito"}},
-        {"word": "срамота", "translations": {"english": "shame", "spanish": "vergüenza"}},
-        {"word": "хуйлуша", "translations": {"english": "dickhead", "spanish": "vergoncito"}},
-        {"word": "блядюга", "translations": {"english": "big whore", "spanish": "putona"}},
-        {"word": "пиздобратия", "translations": {"english": "cunt crew", "spanish": "coñería"}},
-        {"word": "ебанятина", "translations": {"english": "fucking mess", "spanish": "jodidura"}},
-        {"word": "хуйсос", "translations": {"english": "cocksucker", "spanish": "mamavergas"}},
-        {"word": "пиздецкая", "translations": {"english": "fucked up", "spanish": "jodida"}},
-        {"word": "срака", "translations": {"english": "ass", "spanish": "culo"}},
-        {"word": "хуйнуть", "translations": {"english": "hit", "spanish": "golpear"}},
-        {"word": "пиздюшка", "translations": {"english": "little pussy", "spanish": "coñita"}},
-        {"word": "блядища", "translations": {"english": "huge whore", "spanish": "putaza"}},
-        {"word": "хуйня", "translations": {"english": "bullshit", "spanish": "mierda"}},
-        {"word": "ебаный", "translations": {"english": "fucking", "spanish": "jodido"}},
-        {"word": "хуйпиздец", "translations": {"english": "total fuck", "spanish": "jodido total"}},
-        {"word": "пиздануться", "translations": {"english": "go crazy", "spanish": "volverse loco"}},
-        {"word": "сраный", "translations": {"english": "shitty", "spanish": "mierdoso"}},
-        {"word": "ебаться", "translations": {"english": "fuck", "spanish": "joder"}},
-        {"word": "хуйпиздец", "translations": {"english": "total fuck", "spanish": "jodido total"}},
-        {"word": "пиздец", "translations": {"english": "fucked up", "spanish": "jodido"}},
-        {"word": "хуйня", "translations": {"english": "crap", "spanish": "mierda"}},
-        {"word": "ебаный", "translations": {"english": "fucking", "spanish": "jodido"}},
-        {"word": "сраный", "translations": {"english": "shitty", "spanish": "mierdoso"}},
-        {"word": "пиздец", "translations": {"english": "fucked up", "spanish": "jodido"}},
-        {"word": "хуйня", "translations": {"english": "bullshit", "spanish": "mierda"}},
-        {"word": "ебаный", "translations": {"english": "fucking", "spanish": "jodido"}},
-        {"word": "сраный", "translations": {"english": "shitty", "spanish": "mierdoso"}},
-        {"word": "пиздец", "translations": {"english": "fucked up", "spanish": "jodido"}},
-        {"word": "хуйня", "translations": {"english": "crap", "spanish": "mierda"}}
-      ],
-      "english": [
-        {"word": "fuck", "translations": {"russian": "блять", "spanish": "joder"}},
-        {"word": "shit", "translations": {"russian": "гавно", "spanish": "mierda"}},
-        {"word": "asshole", "translations": {"russian": "мудак", "spanish": "cabrón"}},
-        {"word": "bitch", "translations": {"russian": "сука", "spanish": "puta"}},
-        {"word": "damn", "translations": {"russian": "чёрт", "spanish": "maldita sea"}},
-        {"word": "cunt", "translations": {"russian": "пизда", "spanish": "coño"}},
-        {"word": "bastard", "translations": {"russian": "ублюдок", "spanish": "hijo de puta"}},
-        {"word": "dick", "translations": {"russian": "хуй", "spanish": "verga"}},
-        {"word": "piss", "translations": {"russian": "ссать", "spanish": "mear"}},
-        {"word": "cock", "translations": {"russian": "хуй", "spanish": "pija"}},
-        {"word": "prick", "translations": {"russian": "хуйло", "spanish": "gilipollas"}},
-        {"word": "twat", "translations": {"russian": "пизда", "spanish": "coño"}},
-        {"word": "bullshit", "translations": {"russian": "хуйня", "spanish": "mierda"}},
-        {"word": "fucker", "translations": {"russian": "ебарь", "spanish": "chingón"}},
-        {"word": "ass", "translations": {"russian": "жопа", "spanish": "culo"}},
-        {"word": "motherfucker", "translations": {"russian": "ебаный в рот", "spanish": "hijo de puta"}},
-        {"word": "crap", "translations": {"russian": "дерьмо", "spanish": "mierda"}},
-        {"word": "wanker", "translations": {"russian": "дрочер", "spanish": "pajero"}},
-        {"word": "slut", "translations": {"russian": "шлюха", "spanish": "puta"}},
-        {"word": "douche", "translations": {"russian": "мудак", "spanish": "imbécil"}},
-        {"word": "arse", "translations": {"russian": "жопа", "spanish": "culo"}},
-        {"word": "bollocks", "translations": {"russian": "яйца", "spanish": "cojones"}},
-        {"word": "fucking", "translations": {"russian": "ебаный", "spanish": "jodido"}},
-        {"word": "pussy", "translations": {"russian": "пизда", "spanish": "coño"}},
-        {"word": "jackass", "translations": {"russian": "осёл", "spanish": "burro"}},
-        {"word": "whore", "translations": {"russian": "блядь", "spanish": "puta"}},
-        {"word": "shag", "translations": {"russian": "ебать", "spanish": "joder"}},
-        {"word": "tosser", "translations": {"russian": "дрочер", "spanish": "pajero"}},
-        {"word": "bugger", "translations": {"russian": "пидор", "spanish": "maricón"}},
-        {"word": "dickhead", "translations": {"russian": "хуйло", "spanish": "vergon"}},
-        {"word": "arsehole", "translations": {"russian": "мудак", "spanish": "cabrón"}},
-        {"word": "shithead", "translations": {"russian": "говнюк", "spanish": "mierdoso"}},
-        {"word": "faggot", "translations": {"russian": "пидор", "spanish": "maricón"}},
-        {"word": "nigger", "translations": {"russian": "негр (оск.)", "spanish": "negro (оск.)"}},
-        {"word": "cocksucker", "translations": {"russian": "хуесос", "spanish": "mamón"}},
-        {"word": "son of a bitch", "translations": {"russian": "сукин сын", "spanish": "hijo de puta"}},
-        {"word": "twit", "translations": {"russian": "придурок", "spanish": "tonto"}},
-        {"word": "moron", "translations": {"russian": "еблан", "spanish": "imbécil"}},
-        {"word": "jerk", "translations": {"russian": "засранец", "spanish": "gilipollas"}},
-        {"word": "dipshit", "translations": {"russian": "долбоёб", "spanish": "pendejo"}},
-        {"word": "fuckwit", "translations": {"russian": "ебанутый", "spanish": "jodido idiota"}},
-        {"word": "shitty", "translations": {"russian": "хуёвый", "spanish": "mierdoso"}},
-        {"word": "pissed", "translations": {"russian": "пиздец", "spanish": "cabreado"}},
-        {"word": "dumbass", "translations": {"russian": "долбоёб", "spanish": "pendejo"}},
-        {"word": "freak", "translations": {"russian": "уёбок", "spanish": "raro"}},
-        {"word": "retard", "translations": {"russian": "дебил", "spanish": "retrasado"}},
-        {"word": "schmuck", "translations": {"russian": "мудак", "spanish": "cabrón"}},
-        {"word": "bint", "translations": {"russian": "сучка", "spanish": "putilla"}},
-        {"word": "skank", "translations": {"russian": "шлюха", "spanish": "puta"}},
-        {"word": "pricktease", "translations": {"russian": "хуйдразнилка", "spanish": "calientapijas"}},
-        {"word": "fuckface", "translations": {"russian": "ебало", "spanish": "cara de mierda"}},
-        {"word": "shitbag", "translations": {"russian": "говнюк", "spanish": "mierdoso"}},
-        {"word": "asswipe", "translations": {"russian": "жополиз", "spanish": "lameculos"}},
-        {"word": "douchebag", "translations": {"russian": "мудак", "spanish": "gilipollas"}},
-        {"word": "cocktease", "translations": {"russian": "хуйдразнилка", "spanish": "calientavergas"}},
-        {"word": "fuckoff", "translations": {"russian": "нахуй", "spanish": "vete a la mierda"}},
-        {"word": "shitface", "translations": {"russian": "говноед", "spanish": "cara de mierda"}},
-        {"word": "arsewipe", "translations": {"russian": "жополиз", "spanish": "lameculos"}},
-        {"word": "fuckhead", "translations": {"russian": "ебанутый", "spanish": "jodido idiota"}},
-        {"word": "twatface", "translations": {"russian": "пиздец лицо", "spanish": "cara de coño"}},
-        {"word": "shithole", "translations": {"russian": "сраная дыра", "spanish": "agujero de mierda"}},
-        {"word": "fucknut", "translations": {"russian": "ебанат", "spanish": "loco jodido"}},
-        {"word": "asshat", "translations": {"russian": "мудак", "spanish": "cabrón"}},
-        {"word": "cuntface", "translations": {"russian": "пиздец лицо", "spanish": "cara de coño"}},
-        {"word": "pisshead", "translations": {"russian": "пьянь", "spanish": "borracho"}},
-        {"word": "fucktard", "translations": {"russian": "ебанутый", "spanish": "jodido idiota"}},
-        {"word": "shitstain", "translations": {"russian": "гавно", "spanish": "mancha de mierda"}},
-        {"word": "cockwomble", "translations": {"russian": "хуйло", "spanish": "vergon"}},
-        {"word": "dickwad", "translations": {"russian": "хуйня", "spanish": "verga"}},
-        {"word": "arsebandit", "translations": {"russian": "пидор", "spanish": "maricón"}},
-        {"word": "fuckery", "translations": {"russian": "ебанятина", "spanish": "jodidez"}},
-        {"word": "shitfuck", "translations": {"russian": "хуйпиздец", "spanish": "mierda jodida"}},
-        {"word": "cockshit", "translations": {"russian": "хуйня", "spanish": "verga mierda"}},
-        {"word": "assfuck", "translations": {"russian": "жопоеб", "spanish": "culo jodido"}},
-        {"word": "pissfuck", "translations": {"russian": "ссатьебать", "spanish": "mear joder"}},
-        {"word": "cuntfuck", "translations": {"russian": "пиздец", "spanish": "coño jodido"}},
-        {"word": "fuckshit", "translations": {"russian": "хуйня", "spanish": "joder mierda"}},
-        {"word": "dickfuck", "translations": {"russian": "хуйебать", "spanish": "verga joder"}},
-        {"word": "shitass", "translations": {"russian": "срака", "spanish": "culo mierda"}},
-        {"word": "fuckass", "translations": {"russian": "ебаная жопа", "spanish": "culo jodido"}},
-        {"word": "cuntbag", "translations": {"russian": "пиздец", "spanish": "coño mierda"}},
-        {"word": "pissbag", "translations": {"russian": "ссыкун", "spanish": "mear mierda"}},
-        {"word": "shitbag", "translations": {"russian": "говнюк", "spanish": "mierdoso"}},
-        {"word": "dickbag", "translations": {"russian": "хуйня", "spanish": "verga mierda"}},
-        {"word": "assbag", "translations": {"russian": "жополиз", "spanish": "culo mierda"}},
-        {"word": "fuckbag", "translations": {"russian": "ебаный", "spanish": "jodido mierda"}},
-        {"word": "cuntwad", "translations": {"russian": "пиздец", "spanish": "coño mierda"}},
-        {"word": "pisswad", "translations": {"russian": "ссыкун", "spanish": "mear mierda"}},
-        {"word": "shitwad", "translations": {"russian": "говнюк", "spanish": "mierdoso"}},
-        {"word": "dickwad", "translations": {"russian": "хуйня", "spanish": "verga mierda"}},
-        {"word": "assclown", "translations": {"russian": "мудак", "spanish": "payaso culo"}},
-        {"word": "fuckclown", "translations": {"russian": "ебанутый", "spanish": "payaso jodido"}},
-        {"word": "shitclown", "translations": {"russian": "говнюк", "spanish": "payaso mierda"}},
-        {"word": "dickclown", "translations": {"russian": "хуйло", "spanish": "payaso verga"}},
-        {"word": "cuntclown", "translations": {"russian": "пиздец", "spanish": "payaso coño"}},
-        {"word": "pissclown", "translations": {"russian": "ссыкун", "spanish": "payaso mear"}},
-        {"word": "arseclown", "translations": {"russian": "жополиз", "spanish": "payaso culo"}},
-        {"word": "twatclown", "translations": {"russian": "пиздец", "spanish": "payaso coño"}}
-      ],
-      "spanish": [
-        {"word": "joder", "translations": {"russian": "блять", "english": "fuck"}},
-        {"word": "puta", "translations": {"russian": "сука", "english": "bitch"}},
-        {"word": "mierda", "translations": {"russian": "гавно", "english": "shit"}},
-        {"word": "cabrón", "translations": {"russian": "мудак", "english": "asshole"}},
-        {"word": "coño", "translations": {"russian": "пизда", "english": "cunt"}},
-        {"word": "pendejo", "translations": {"russian": "долбоёб", "english": "dumbass"}},
-        {"word": "carajo", "translations": {"russian": "чёрт", "english": "damn"}},
-        {"word": "hijo de puta", "translations": {"russian": "сукин сын", "english": "son of a bitch"}},
-        {"word": "culo", "translations": {"russian": "жопа", "english": "ass"}},
-        {"word": "gilipollas", "translations": {"russian": "придурок", "english": "jerk"}},
-        {"word": "maricón", "translations": {"russian": "пидор", "english": "faggot"}},
-        {"word": "verga", "translations": {"russian": "хуй", "english": "dick"}},
-        {"word": "chingar", "translations": {"russian": "ебать", "english": "fuck"}},
-        {"word": "puto", "translations": {"russian": "пидор", "english": "faggot"}},
-        {"word": "pinche", "translations": {"russian": "ебаный", "english": "fucking"}},
-        {"word": "mamón", "translations": {"russian": "хуесос", "english": "cocksucker"}},
-        {"word": "huevón", "translations": {"russian": "лентяй", "english": "lazy ass"}},
-        {"word": "cagada", "translations": {"russian": "дерьмо", "english": "screw-up"}},
-        {"word": "boludo", "translations": {"russian": "долбоёб", "english": "idiot"}},
-        {"word": "pendejada", "translations": {"russian": "хуйня", "english": "bullshit"}},
-        {"word": "chingada", "translations": {"russian": "ебаный", "english": "fucked"}},
-        {"word": "cagón", "translations": {"russian": "трус", "english": "coward"}},
-        {"word": "putada", "translations": {"russian": "подляна", "english": "dirty trick"}},
-        {"word": "mierdoso", "translations": {"russian": "хуёвый", "english": "shitty"}},
-        {"word": "jodido", "translations": {"russian": "пиздец", "english": "fucked up"}},
-        {"word": "cabronazo", "translations": {"russian": "мудак", "english": "big asshole"}},
-        {"word": "cojones", "translations": {"russian": "яйца", "english": "balls"}},
-        {"word": "pija", "translations": {"russian": "хуй", "english": "cock"}},
-        {"word": "culero", "translations": {"russian": "жополиз", "english": "asshole"}},
-        {"word": "chingón", "translations": {"russian": "ебарь", "english": "badass"}},
-        {"word": "huevos", "translations": {"russian": "яйца", "english": "balls"}},
-        {"word": "mamada", "translations": {"russian": "хуйня", "english": "bullshit"}},
-        {"word": "cagar", "translations": {"russian": "срать", "english": "shit"}},
-        {"word": "putón", "translations": {"russian": "блядина", "english": "slut"}},
-        {"word": "marica", "translations": {"russian": "пидорас", "english": "faggot"}},
-        {"word": "joto", "translations": {"russian": "пидор", "english": "faggot"}},
-        {"word": "chingadera", "translations": {"russian": "хуйня", "english": "shit"}},
-        {"word": "cagarla", "translations": {"russian": "засрать", "english": "fuck up"}},
-        {"word": "pelotudo", "translations": {"russian": "долбоёб", "english": "dumbass"}},
-        {"word": "tarado", "translations": {"russian": "дебил", "english": "retard"}},
-        {"word": "concha", "translations": {"russian": "пизда", "english": "cunt"}},
-        {"word": "putear", "translations": {"russian": "ебать", "english": "fuck around"}},
-        {"word": "mierdero", "translations": {"russian": "сраный", "english": "shitty"}},
-        {"word": "cabrona", "translations": {"russian": "сука", "english": "bitch"}},
-        {"word": "culiao", "translations": {"russian": "жополиз", "english": "asshole"}},
-        {"word": "pajero", "translations": {"russian": "дрочер", "english": "wanker"}},
-        {"word": "huevada", "translations": {"russian": "хуйня", "english": "bullshit"}},
-        {"word": "putazo", "translations": {"russian": "хуяк", "english": "hit"}},
-        {"word": "mierdita", "translations": {"russian": "хуйняшка", "english": "little shit"}},
-        {"word": "jodete", "translations": {"russian": "нахуй", "english": "fuck off"}},
-        {"word": "culpar", "translations": {"russian": "винить", "english": "blame"}},
-        {"word": "pinchazo", "translations": {"russian": "хуй", "english": "prick"}},
-        {"word": "mamadera", "translations": {"russian": "хуйня", "english": "bullshit"}},
-        {"word": "cagonazo", "translations": {"russian": "трусишка", "english": "big coward"}},
-        {"word": "putilla", "translations": {"russian": "сучка", "english": "little bitch"}},
-        {"word": "mariconada", "translations": {"russian": "пидорство", "english": "faggotry"}},
-        {"word": "vergon", "translations": {"russian": "хуйло", "english": "dickhead"}},
-        {"word": "chingado", "translations": {"russian": "ебаный", "english": "fucked"}},
-        {"word": "culote", "translations": {"russian": "жопища", "english": "big ass"}},
-        {"word": "pichula", "translations": {"russian": "хуй", "english": "dick"}},
-        {"word": "cabróncito", "translations": {"russian": "мудак", "english": "little asshole"}},
-        {"word": "coñazo", "translations": {"russian": "пиздец", "english": "pain in the ass"}},
-        {"word": "pendejote", "translations": {"russian": "долбоёбище", "english": "big dumbass"}},
-        {"word": "carajada", "translations": {"russian": "хуйня", "english": "bullshit"}},
-        {"word": "puteria", "translations": {"russian": "блядство", "english": "whoring"}},
-        {"word": "mierdazo", "translations": {"russian": "срака", "english": "shitload"}},
-        {"word": "jodidamente", "translations": {"russian": "пиздецки", "english": "fucking"}},
-        {"word": "culiado", "translations": {"russian": "жополиз", "english": "asshole"}},
-        {"word": "pajote", "translations": {"russian": "дрочер", "english": "wanker"}},
-        {"word": "hueveteo", "translations": {"russian": "хуйня", "english": "bullshit"}},
-        {"word": "chingadazo", "translations": {"russian": "ебануть", "english": "fuck up"}},
-        {"word": "putamadre", "translations": {"russian": "сука мать", "english": "motherfucker"}},
-        {"word": "cagadita", "translations": {"russian": "хуйняшка", "english": "little fuck-up"}},
-        {"word": "maricónazo", "translations": {"russian": "пидорас", "english": "big faggot"}},
-        {"word": "verguenza", "translations": {"russian": "срамота", "english": "shame"}},
-        {"word": "putañero", "translations": {"russian": "блядун", "english": "whoremonger"}},
-        {"word": "mierdica", "translations": {"russian": "хуйня", "english": "shitty"}},
-        {"word": "cabroncete", "translations": {"russian": "мудак", "english": "little asshole"}},
-        {"word": "culamen", "translations": {"russian": "жопища", "english": "big ass"}},
-        {"word": "pajilla", "translations": {"russian": "дрочка", "english": "wank"}},
-        {"word": "huevonazo", "translations": {"russian": "лентяй", "english": "lazy bastard"}},
-        {"word": "putarraco", "translations": {"russian": "блядища", "english": "big whore"}},
-        {"word": "cagate", "translations": {"russian": "сраться", "english": "shit yourself"}},
-        {"word": "maricueca", "translations": {"russian": "пидор", "english": "faggot"}},
-        {"word": "vergatario", "translations": {"russian": "хуйня", "english": "dickhead"}},
-        {"word": "putisima", "translations": {"russian": "блядища", "english": "fucking whore"}},
-        {"word": "mierdoso", "translations": {"russian": "сраный", "english": "shitty"}},
-        {"word": "cabronada", "translations": {"russian": "мудачество", "english": "assholery"}},
-        {"word": "culillo", "translations": {"russian": "жопка", "english": "little ass"}},
-        {"word": "pajear", "translations": {"russian": "дрочить", "english": "jerk off"}},
-        {"word": "huevear", "translations": {"russian": "хуйню нести", "english": "fuck around"}},
-        {"word": "putona", "translations": {"russian": "блядина", "english": "slut"}},
-        {"word": "cagadera", "translations": {"russian": "срака", "english": "shitshow"}},
-        {"word": "jodidón", "translations": {"russian": "пиздец", "english": "big fuck-up"}},
-        {"word": "mierdonga", "translations": {"russian": "хуйня", "english": "shitty thing"}},
-        {"word": "culotote", "translations": {"russian": "жопища", "english": "huge ass"}},
-        {"word": "pendejito", "translations": {"russian": "долбоёбик", "english": "little dumbass"}},
-        {"word": "putilla", "translations": {"russian": "сучка", "english": "little bitch"}},
-        {"word": "carajote", "translations": {"russian": "придурок", "english": "jerk"}},
-        {"word": "mierdazo", "translations": {"russian": "сраный", "english": "shitload"}}
-      ]
-    }
+  "swear_words": {
+    "russian": [
+      {
+        "word": "блять",
+        "translations": {
+          "english": {
+            "word": "fuck",
+            "transcription": "[fʌk]"
+          },
+          "spanish": {
+            "word": "joder",
+            "transcription": "[ˈxo.ðer]"
+          }
+        },
+        "transcription": "[blyatʲ]"
+      },
+      {
+        "word": "хуй",
+        "translations": {
+          "english": {
+            "word": "dick",
+            "transcription": "[dɪk]"
+          },
+          "spanish": {
+            "word": "verga",
+            "transcription": "[ˈber.ɡa]"
+          }
+        },
+        "transcription": "[xuj]"
+      },
+      {
+        "word": "пиздец",
+        "translations": {
+          "english": {
+            "word": "fucked up",
+            "transcription": "[fucked up]"
+          },
+          "spanish": {
+            "word": "jodido",
+            "transcription": "[xoˈði.ðo]"
+          }
+        },
+        "transcription": "[pizˈdʲets]"
+      },
+      {
+        "word": "ебать",
+        "translations": {
+          "english": {
+            "word": "fuck",
+            "transcription": "[fʌk]"
+          },
+          "spanish": {
+            "word": "chingar",
+            "transcription": "[tʃinˈɡar]"
+          }
+        },
+        "transcription": "[jeˈbatʲ]"
+      },
+      {
+        "word": "сука",
+        "translations": {
+          "english": {
+            "word": "bitch",
+            "transcription": "[bɪtʃ]"
+          },
+          "spanish": {
+            "word": "puta",
+            "transcription": "[ˈpu.ta]"
+          }
+        },
+        "transcription": "[ˈsu.ka]"
+      },
+      {
+        "word": "мудак",
+        "translations": {
+          "english": {
+            "word": "asshole",
+            "transcription": "[ˈæs.hoʊl]"
+          },
+          "spanish": {
+            "word": "cabrón",
+            "transcription": "[kaˈβɾon]"
+          }
+        },
+        "transcription": "[muˈdak]"
+      },
+      {
+        "word": "гавно",
+        "translations": {
+          "english": {
+            "word": "shit",
+            "transcription": "[ʃɪt]"
+          },
+          "spanish": {
+            "word": "mierda",
+            "transcription": "[ˈmjer.ða]"
+          }
+        },
+        "transcription": "[ɡavˈno]"
+      },
+      {
+        "word": "залупа",
+        "translations": {
+          "english": {
+            "word": "dickhead",
+            "transcription": "[ˈdɪk.hɛd]"
+          },
+          "spanish": {
+            "word": "pija",
+            "transcription": "[ˈpi.xa]"
+          }
+        },
+        "transcription": "[zaˈlu.pa]"
+      },
+      {
+        "word": "долбоёб",
+        "translations": {
+          "english": {
+            "word": "dumbass",
+            "transcription": "[ˈdʌm.æs]"
+          },
+          "spanish": {
+            "word": "pendejo",
+            "transcription": "[penˈde.xo]"
+          }
+        },
+        "transcription": "[dol.boˈjop]"
+      },
+      {
+        "word": "пидор",
+        "translations": {
+          "english": {
+            "word": "faggot",
+            "transcription": "[ˈfæɡ.ət]"
+          },
+          "spanish": {
+            "word": "maricón",
+            "transcription": "[ma.ɾiˈkon]"
+          }
+        },
+        "transcription": "[piˈdor]"
+      },
+      {
+        "word": "жопа",
+        "translations": {
+          "english": {
+            "word": "ass",
+            "transcription": "[æs]"
+          },
+          "spanish": {
+            "word": "culo",
+            "transcription": "[ˈku.lo]"
+          }
+        },
+        "transcription": "[ˈʐo.pa]"
+      },
+      {
+        "word": "уёбок",
+        "translations": {
+          "english": {
+            "word": "freak",
+            "transcription": "[frik]"
+          },
+          "spanish": {
+            "word": "idiota",
+            "transcription": "[idiota]"
+          }
+        },
+        "transcription": "[uˈjo.bok]"
+      },
+      {
+        "word": "срать",
+        "translations": {
+          "english": {
+            "word": "shit",
+            "transcription": "[ʃɪt]"
+          },
+          "spanish": {
+            "word": "cagar",
+            "transcription": "[kaˈɡar]"
+          }
+        },
+        "transcription": "[sratʲ]"
+      },
+      {
+        "word": "нахуй",
+        "translations": {
+          "english": {
+            "word": "to hell",
+            "transcription": "[to hell]"
+          },
+          "spanish": {
+            "word": "al carajo",
+            "transcription": "[al carajo]"
+          }
+        },
+        "transcription": "[naˈxuj]"
+      },
+      {
+        "word": "пизда",
+        "translations": {
+          "english": {
+            "word": "cunt",
+            "transcription": "[kʌnt]"
+          },
+          "spanish": {
+            "word": "coño",
+            "transcription": "[ˈko.ɲo]"
+          }
+        },
+        "transcription": "[pizˈda]"
+      },
+      {
+        "word": "ебаный",
+        "translations": {
+          "english": {
+            "word": "fucking",
+            "transcription": "[ˈfʌk.ɪŋ]"
+          },
+          "spanish": {
+            "word": "jodido",
+            "transcription": "[xoˈði.ðo]"
+          }
+        },
+        "transcription": "[jeˈba.nɨj]"
+      },
+      {
+        "word": "хуёво",
+        "translations": {
+          "english": {
+            "word": "shitty",
+            "transcription": "[ˈʃɪt.i]"
+          },
+          "spanish": {
+            "word": "mierdoso",
+            "transcription": "[mjerˈðo.so]"
+          }
+        },
+        "transcription": "[xuˈjo.va]"
+      },
+      {
+        "word": "блядина",
+        "translations": {
+          "english": {
+            "word": "whore",
+            "transcription": "[hɔr]"
+          },
+          "spanish": {
+            "word": "putona",
+            "transcription": "[puˈto.na]"
+          }
+        },
+        "transcription": "[blyaˈdi.na]"
+      },
+      {
+        "word": "пиздецки",
+        "translations": {
+          "english": {
+            "word": "fucked",
+            "transcription": "[fucked]"
+          },
+          "spanish": {
+            "word": "jodidamente",
+            "transcription": "[xo.ðiˈða.men.te]"
+          }
+        },
+        "transcription": "[pizˈdʲets.ki]"
+      },
+      {
+        "word": "хуета",
+        "translations": {
+          "english": {
+            "word": "bullshit",
+            "transcription": "[ˈbʊl.ʃɪt]"
+          },
+          "spanish": {
+            "word": "mierda",
+            "transcription": "[ˈmjer.ða]"
+          }
+        },
+        "transcription": "[xuˈje.ta]"
+      },
+      {
+        "word": "ебало",
+        "translations": {
+          "english": {
+            "word": "face (rude)",
+            "transcription": "[face (rude)]"
+          },
+          "spanish": {
+            "word": "cara de mierda",
+            "transcription": "[cara de mierda]"
+          }
+        },
+        "transcription": "[jeˈba.lo]"
+      },
+      {
+        "word": "хуйня",
+        "translations": {
+          "english": {
+            "word": "crap",
+            "transcription": "[kræp]"
+          },
+          "spanish": {
+            "word": "tontería",
+            "transcription": "[tontería]"
+          }
+        },
+        "transcription": "[xujˈnya]"
+      },
+      {
+        "word": "сучка",
+        "translations": {
+          "english": {
+            "word": "little bitch",
+            "transcription": "[little bitch]"
+          },
+          "spanish": {
+            "word": "putilla",
+            "transcription": "[puˈti.ʎa]"
+          }
+        },
+        "transcription": "[ˈsutʃ.ka]"
+      },
+      {
+        "word": "ебаться",
+        "translations": {
+          "english": {
+            "word": "fuck around",
+            "transcription": "[fuck around]"
+          },
+          "spanish": {
+            "word": "joderse",
+            "transcription": "[joderse]"
+          }
+        },
+        "transcription": "[jeˈbatʲ.sya]"
+      },
+      {
+        "word": "пидорас",
+        "translations": {
+          "english": {
+            "word": "faggot",
+            "transcription": "[ˈfæɡ.ət]"
+          },
+          "spanish": {
+            "word": "marica",
+            "transcription": "[maˈɾi.ka]"
+          }
+        },
+        "transcription": "[pi.doˈras]"
+      },
+      {
+        "word": "говнюк",
+        "translations": {
+          "english": {
+            "word": "shithead",
+            "transcription": "[ˈʃɪt.hɛd]"
+          },
+          "spanish": {
+            "word": "mierdoso",
+            "transcription": "[mjerˈðo.so]"
+          }
+        },
+        "transcription": "[ɡavˈnjuk]"
+      },
+      {
+        "word": "засранец",
+        "translations": {
+          "english": {
+            "word": "jerk",
+            "transcription": "[dʒɜrk]"
+          },
+          "spanish": {
+            "word": "gilipollas",
+            "transcription": "[xi.liˈpo.ʎas]"
+          }
+        },
+        "transcription": "[zaˈsra.nʲets]"
+      },
+      {
+        "word": "ебануть",
+        "translations": {
+          "english": {
+            "word": "fuck up",
+            "transcription": "[fuck up]"
+          },
+          "spanish": {
+            "word": "joderlo",
+            "transcription": "[joderlo]"
+          }
+        },
+        "transcription": "[je.baˈnutʲ]"
+      },
+      {
+        "word": "шлюха",
+        "translations": {
+          "english": {
+            "word": "slut",
+            "transcription": "[slʌt]"
+          },
+          "spanish": {
+            "word": "puta",
+            "transcription": "[ˈpu.ta]"
+          }
+        },
+        "transcription": "[ˈʃlʲu.xa]"
+      },
+      {
+        "word": "пиздить",
+        "translations": {
+          "english": {
+            "word": "beat",
+            "transcription": "[beat]"
+          },
+          "spanish": {
+            "word": "dar una paliza",
+            "transcription": "[dar una paliza]"
+          }
+        },
+        "transcription": "[pizˈdʲitʲ]"
+      },
+      {
+        "word": "дерьмо",
+        "translations": {
+          "english": {
+            "word": "shit",
+            "transcription": "[ʃɪt]"
+          },
+          "spanish": {
+            "word": "mierda",
+            "transcription": "[ˈmjer.ða]"
+          }
+        },
+        "transcription": "[dʲerʲˈmo]"
+      },
+      {
+        "word": "ебарь",
+        "translations": {
+          "english": {
+            "word": "fucker",
+            "transcription": "[ˈfʌk.ər]"
+          },
+          "spanish": {
+            "word": "chingón",
+            "transcription": "[tʃinˈɡon]"
+          }
+        },
+        "transcription": "[jeˈbarʲ]"
+      },
+      {
+        "word": "хуйло",
+        "translations": {
+          "english": {
+            "word": "dick",
+            "transcription": "[dɪk]"
+          },
+          "spanish": {
+            "word": "vergon",
+            "transcription": "[berˈɡon]"
+          }
+        },
+        "transcription": "[xujˈlo]"
+      },
+      {
+        "word": "бля",
+        "translations": {
+          "english": {
+            "word": "damn",
+            "transcription": "[dæm]"
+          },
+          "spanish": {
+            "word": "carajo",
+            "transcription": "[kaˈɾa.xo]"
+          }
+        },
+        "transcription": "[blya]"
+      },
+      {
+        "word": "пиздюли",
+        "translations": {
+          "english": {
+            "word": "beating",
+            "transcription": "[beating]"
+          },
+          "spanish": {
+            "word": "golpes",
+            "transcription": "[golpes]"
+          }
+        },
+        "transcription": "[pizˈdʲu.lʲi]"
+      },
+      {
+        "word": "срака",
+        "translations": {
+          "english": {
+            "word": "ass",
+            "transcription": "[æs]"
+          },
+          "spanish": {
+            "word": "culo",
+            "transcription": "[ˈku.lo]"
+          }
+        },
+        "transcription": "[ˈsra.ka]"
+      },
+      {
+        "word": "ебанат",
+        "translations": {
+          "english": {
+            "word": "nutcase",
+            "transcription": "[nutcase]"
+          },
+          "spanish": {
+            "word": "loco",
+            "transcription": "[loco]"
+          }
+        },
+        "transcription": "[je.baˈnat]"
+      },
+      {
+        "word": "хуесос",
+        "translations": {
+          "english": {
+            "word": "cocksucker",
+            "transcription": "[ˈkɒkˌsʌk.ər]"
+          },
+          "spanish": {
+            "word": "mamón",
+            "transcription": "[maˈmon]"
+          }
+        },
+        "transcription": "[xu.jeˈsos]"
+      },
+      {
+        "word": "пиздеж",
+        "translations": {
+          "english": {
+            "word": "bullshit",
+            "transcription": "[ˈbʊl.ʃɪt]"
+          },
+          "spanish": {
+            "word": "pendejada",
+            "transcription": "[pen.deˈxa.ða]"
+          }
+        },
+        "transcription": "[pizˈdʲeʃ]"
+      },
+      {
+        "word": "мразь",
+        "translations": {
+          "english": {
+            "word": "scum",
+            "transcription": "[scum]"
+          },
+          "spanish": {
+            "word": "basura",
+            "transcription": "[basura]"
+          }
+        },
+        "transcription": "[mrasʲ]"
+      },
+      {
+        "word": "ебучая",
+        "translations": {
+          "english": {
+            "word": "fucking",
+            "transcription": "[ˈfʌk.ɪŋ]"
+          },
+          "spanish": {
+            "word": "puta",
+            "transcription": "[ˈpu.ta]"
+          }
+        },
+        "transcription": "[jeˈbu.tʃa.ja]"
+      },
+      {
+        "word": "засрать",
+        "translations": {
+          "english": {
+            "word": "fuck up",
+            "transcription": "[fuck up]"
+          },
+          "spanish": {
+            "word": "cagarla",
+            "transcription": "[kaˈɡar.la]"
+          }
+        },
+        "transcription": "[zaˈsratʲ]"
+      },
+      {
+        "word": "пиздобол",
+        "translations": {
+          "english": {
+            "word": "liar",
+            "transcription": "[liar]"
+          },
+          "spanish": {
+            "word": "mentiroso",
+            "transcription": "[mentiroso]"
+          }
+        },
+        "transcription": "[piz.doˈbol]"
+      },
+      {
+        "word": "хуяк",
+        "translations": {
+          "english": {
+            "word": "whack",
+            "transcription": "[whack]"
+          },
+          "spanish": {
+            "word": "golpe",
+            "transcription": "[golpe]"
+          }
+        },
+        "transcription": "[xuˈjak]"
+      },
+      {
+        "word": "еблан",
+        "translations": {
+          "english": {
+            "word": "moron",
+            "transcription": "[ˈmɔr.ɒn]"
+          },
+          "spanish": {
+            "word": "imbécil",
+            "transcription": "[imbécil]"
+          }
+        },
+        "transcription": "[jeˈblan]"
+      },
+      {
+        "word": "срань",
+        "translations": {
+          "english": {
+            "word": "shit",
+            "transcription": "[ʃɪt]"
+          },
+          "spanish": {
+            "word": "mierda",
+            "transcription": "[ˈmjer.ða]"
+          }
+        },
+        "transcription": "[sranʲ]"
+      },
+      {
+        "word": "пиздецкая",
+        "translations": {
+          "english": {
+            "word": "fucked",
+            "transcription": "[fucked]"
+          },
+          "spanish": {
+            "word": "jodida",
+            "transcription": "[jodida]"
+          }
+        },
+        "transcription": "[pizˈdʲets.ka.ja]"
+      },
+      {
+        "word": "хуёвый",
+        "translations": {
+          "english": {
+            "word": "crappy",
+            "transcription": "[crappy]"
+          },
+          "spanish": {
+            "word": "mierdoso",
+            "transcription": "[mjerˈðo.so]"
+          }
+        },
+        "transcription": "[xuˈjo.vɨj]"
+      },
+      {
+        "word": "блядь",
+        "translations": {
+          "english": {
+            "word": "whore",
+            "transcription": "[hɔr]"
+          },
+          "spanish": {
+            "word": "puta",
+            "transcription": "[ˈpu.ta]"
+          }
+        },
+        "transcription": "[blyatʲ]"
+      },
+      {
+        "word": "пиздануть",
+        "translations": {
+          "english": {
+            "word": "hit",
+            "transcription": "[hit]"
+          },
+          "spanish": {
+            "word": "dar un golpe",
+            "transcription": "[dar un golpe]"
+          }
+        },
+        "transcription": "[piz.daˈnutʲ]"
+      },
+      {
+        "word": "говноед",
+        "translations": {
+          "english": {
+            "word": "shit-eater",
+            "transcription": "[shit-eater]"
+          },
+          "spanish": {
+            "word": "comemierda",
+            "transcription": "[comemierda]"
+          }
+        },
+        "transcription": "[ɡav.noˈjed]"
+      },
+      {
+        "word": "хуйпиздец",
+        "translations": {
+          "english": {
+            "word": "total fuck",
+            "transcription": "[total fuck]"
+          },
+          "spanish": {
+            "word": "jodido total",
+            "transcription": "[jodido total]"
+          }
+        },
+        "transcription": "[xuj.pizˈdʲets]"
+      },
+      {
+        "word": "ебень",
+        "translations": {
+          "english": {
+            "word": "mess",
+            "transcription": "[mess]"
+          },
+          "spanish": {
+            "word": "desmadre",
+            "transcription": "[desmadre]"
+          }
+        },
+        "transcription": "[ˈje.benʲ]"
+      },
+      {
+        "word": "пиздюк",
+        "translations": {
+          "english": {
+            "word": "brat",
+            "transcription": "[brat]"
+          },
+          "spanish": {
+            "word": "mocoso",
+            "transcription": "[mocoso]"
+          }
+        },
+        "transcription": "[pizˈdʲuk]"
+      },
+      {
+        "word": "сраный",
+        "translations": {
+          "english": {
+            "word": "shitty",
+            "transcription": "[ˈʃɪt.i]"
+          },
+          "spanish": {
+            "word": "mierdoso",
+            "transcription": "[mjerˈðo.so]"
+          }
+        },
+        "transcription": "[ˈsra.nɨj]"
+      },
+      {
+        "word": "хуйнуть",
+        "translations": {
+          "english": {
+            "word": "smack",
+            "transcription": "[smack]"
+          },
+          "spanish": {
+            "word": "dar",
+            "transcription": "[dar]"
+          }
+        },
+        "transcription": "[xujˈnutʲ]"
+      },
+      {
+        "word": "блядеж",
+        "translations": {
+          "english": {
+            "word": "whoring",
+            "transcription": "[whoring]"
+          },
+          "spanish": {
+            "word": "puteria",
+            "transcription": "[pu.teˈɾi.a]"
+          }
+        },
+        "transcription": "[blyaˈdʲeʃ]"
+      },
+      {
+        "word": "хуйняшка",
+        "translations": {
+          "english": {
+            "word": "little crap",
+            "transcription": "[little crap]"
+          },
+          "spanish": {
+            "word": "mierdita",
+            "transcription": "[mjerˈði.ta]"
+          }
+        },
+        "transcription": "[xujˈnyaʃ.ka]"
+      },
+      {
+        "word": "пиздолиз",
+        "translations": {
+          "english": {
+            "word": "pussy-licker",
+            "transcription": "[pussy-licker]"
+          },
+          "spanish": {
+            "word": "lamecoños",
+            "transcription": "[lamecoños]"
+          }
+        },
+        "transcription": "[piz.doˈlʲis]"
+      },
+      {
+        "word": "ебливый",
+        "translations": {
+          "english": {
+            "word": "horny",
+            "transcription": "[horny]"
+          },
+          "spanish": {
+            "word": "caliente",
+            "transcription": "[caliente]"
+          }
+        },
+        "transcription": "[ˈje.blʲi.vɨj]"
+      },
+      {
+        "word": "сраться",
+        "translations": {
+          "english": {
+            "word": "shit oneself",
+            "transcription": "[shit oneself]"
+          },
+          "spanish": {
+            "word": "cagarse",
+            "transcription": "[cagarse]"
+          }
+        },
+        "transcription": "[ˈsratʲ.sya]"
+      },
+      {
+        "word": "пиздануться",
+        "translations": {
+          "english": {
+            "word": "go nuts",
+            "transcription": "[go nuts]"
+          },
+          "spanish": {
+            "word": "volverse loco",
+            "transcription": "[volverse loco]"
+          }
+        },
+        "transcription": "[piz.daˈnutʲ.sya]"
+      },
+      {
+        "word": "хуйство",
+        "translations": {
+          "english": {
+            "word": "dickery",
+            "transcription": "[dickery]"
+          },
+          "spanish": {
+            "word": "vergonada",
+            "transcription": "[vergonada]"
+          }
+        },
+        "transcription": "[xujˈstvo]"
+      },
+      {
+        "word": "ебаная",
+        "translations": {
+          "english": {
+            "word": "fucking",
+            "transcription": "[ˈfʌk.ɪŋ]"
+          },
+          "spanish": {
+            "word": "jodida",
+            "transcription": "[jodida]"
+          }
+        },
+        "transcription": "[jeˈba.na.ja]"
+      },
+      {
+        "word": "хуйзнает",
+        "translations": {
+          "english": {
+            "word": "who the fuck knows",
+            "transcription": "[who the fuck knows]"
+          },
+          "spanish": {
+            "word": "quién carajo sabe",
+            "transcription": "[quién carajo sabe]"
+          }
+        },
+        "transcription": "[xujˈzna.jet]"
+      },
+      {
+        "word": "блядство",
+        "translations": {
+          "english": {
+            "word": "whoredom",
+            "transcription": "[whoredom]"
+          },
+          "spanish": {
+            "word": "puteria",
+            "transcription": "[pu.teˈɾi.a]"
+          }
+        },
+        "transcription": "[ˈblyatʲ.stvo]"
+      },
+      {
+        "word": "сучонок",
+        "translations": {
+          "english": {
+            "word": "little bastard",
+            "transcription": "[little bastard]"
+          },
+          "spanish": {
+            "word": "hijoputa",
+            "transcription": "[hijoputa]"
+          }
+        },
+        "transcription": "[suˈtʃo.nok]"
+      },
+      {
+        "word": "хуйпизда",
+        "translations": {
+          "english": {
+            "word": "fuck-cunt",
+            "transcription": "[fuck-cunt]"
+          },
+          "spanish": {
+            "word": "jodercoño",
+            "transcription": "[jodercoño]"
+          }
+        },
+        "transcription": "[xuj.pizˈda]"
+      },
+      {
+        "word": "пиздопроёбина",
+        "translations": {
+          "english": {
+            "word": "fuck-up",
+            "transcription": "[fuck-up]"
+          },
+          "spanish": {
+            "word": "desmadre",
+            "transcription": "[desmadre]"
+          }
+        },
+        "transcription": "[piz.do.proˈjo.bi.na]"
+      },
+      {
+        "word": "ебак",
+        "translations": {
+          "english": {
+            "word": "fucker",
+            "transcription": "[ˈfʌk.ər]"
+          },
+          "spanish": {
+            "word": "chingador",
+            "transcription": "[chingador]"
+          }
+        },
+        "transcription": "[jeˈbak]"
+      },
+      {
+        "word": "хуйнятина",
+        "translations": {
+          "english": {
+            "word": "shitty thing",
+            "transcription": "[shitty thing]"
+          },
+          "spanish": {
+            "word": "mierdada",
+            "transcription": "[mierdada]"
+          }
+        },
+        "transcription": "[xuj.nyaˈti.na]"
+      },
+      {
+        "word": "пиздюлина",
+        "translations": {
+          "english": {
+            "word": "little cunt",
+            "transcription": "[little cunt]"
+          },
+          "spanish": {
+            "word": "coñito",
+            "transcription": "[coñito]"
+          }
+        },
+        "transcription": "[pizˈdʲu.lʲi.na]"
+      },
+      {
+        "word": "срамота",
+        "translations": {
+          "english": {
+            "word": "shame",
+            "transcription": "[shame]"
+          },
+          "spanish": {
+            "word": "vergüenza",
+            "transcription": "[vergüenza]"
+          }
+        },
+        "transcription": "[sraˈmo.ta]"
+      },
+      {
+        "word": "хуйлуша",
+        "translations": {
+          "english": {
+            "word": "dickhead",
+            "transcription": "[ˈdɪk.hɛd]"
+          },
+          "spanish": {
+            "word": "vergoncito",
+            "transcription": "[vergoncito]"
+          }
+        },
+        "transcription": "[xujˈlu.ʃa]"
+      },
+      {
+        "word": "блядюга",
+        "translations": {
+          "english": {
+            "word": "big whore",
+            "transcription": "[big whore]"
+          },
+          "spanish": {
+            "word": "putona",
+            "transcription": "[puˈto.na]"
+          }
+        },
+        "transcription": "[blyˈdʲu.ɡa]"
+      },
+      {
+        "word": "пиздобратия",
+        "translations": {
+          "english": {
+            "word": "cunt crew",
+            "transcription": "[cunt crew]"
+          },
+          "spanish": {
+            "word": "coñería",
+            "transcription": "[coñería]"
+          }
+        },
+        "transcription": "[piz.doˈbra.tʲi.ja]"
+      },
+      {
+        "word": "ебанятина",
+        "translations": {
+          "english": {
+            "word": "fucking mess",
+            "transcription": "[fucking mess]"
+          },
+          "spanish": {
+            "word": "jodidura",
+            "transcription": "[jodidura]"
+          }
+        },
+        "transcription": "[je.baˈnya.ti.na]"
+      },
+      {
+        "word": "хуйсос",
+        "translations": {
+          "english": {
+            "word": "cocksucker",
+            "transcription": "[ˈkɒkˌsʌk.ər]"
+          },
+          "spanish": {
+            "word": "mamavergas",
+            "transcription": "[mamavergas]"
+          }
+        },
+        "transcription": "[xujˈsos]"
+      },
+      {
+        "word": "пиздецкая",
+        "translations": {
+          "english": {
+            "word": "fucked up",
+            "transcription": "[fucked up]"
+          },
+          "spanish": {
+            "word": "jodida",
+            "transcription": "[jodida]"
+          }
+        },
+        "transcription": "[pizˈdʲets.ka.ja]"
+      },
+      {
+        "word": "срака",
+        "translations": {
+          "english": {
+            "word": "ass",
+            "transcription": "[æs]"
+          },
+          "spanish": {
+            "word": "culo",
+            "transcription": "[ˈku.lo]"
+          }
+        },
+        "transcription": "[ˈsra.ka]"
+      },
+      {
+        "word": "хуйнуть",
+        "translations": {
+          "english": {
+            "word": "hit",
+            "transcription": "[hit]"
+          },
+          "spanish": {
+            "word": "golpear",
+            "transcription": "[golpear]"
+          }
+        },
+        "transcription": "[xujˈnutʲ]"
+      },
+      {
+        "word": "пиздюшка",
+        "translations": {
+          "english": {
+            "word": "little pussy",
+            "transcription": "[little pussy]"
+          },
+          "spanish": {
+            "word": "coñita",
+            "transcription": "[coñita]"
+          }
+        },
+        "transcription": "[pizˈdʲuʃ.ka]"
+      },
+      {
+        "word": "блядища",
+        "translations": {
+          "english": {
+            "word": "huge whore",
+            "transcription": "[huge whore]"
+          },
+          "spanish": {
+            "word": "putaza",
+            "transcription": "[putaza]"
+          }
+        },
+        "transcription": "[blyˈdiʃ.tʃa]"
+      },
+      {
+        "word": "хуйня",
+        "translations": {
+          "english": {
+            "word": "bullshit",
+            "transcription": "[ˈbʊl.ʃɪt]"
+          },
+          "spanish": {
+            "word": "mierda",
+            "transcription": "[ˈmjer.ða]"
+          }
+        },
+        "transcription": "[xujˈnya]"
+      },
+      {
+        "word": "ебаный",
+        "translations": {
+          "english": {
+            "word": "fucking",
+            "transcription": "[ˈfʌk.ɪŋ]"
+          },
+          "spanish": {
+            "word": "jodido",
+            "transcription": "[xoˈði.ðo]"
+          }
+        },
+        "transcription": "[jeˈba.nɨj]"
+      },
+      {
+        "word": "хуйпиздец",
+        "translations": {
+          "english": {
+            "word": "total fuck",
+            "transcription": "[total fuck]"
+          },
+          "spanish": {
+            "word": "jodido total",
+            "transcription": "[jodido total]"
+          }
+        },
+        "transcription": "[xuj.pizˈdʲets]"
+      },
+      {
+        "word": "пиздануться",
+        "translations": {
+          "english": {
+            "word": "go crazy",
+            "transcription": "[go crazy]"
+          },
+          "spanish": {
+            "word": "volverse loco",
+            "transcription": "[volverse loco]"
+          }
+        },
+        "transcription": "[piz.daˈnutʲ.sya]"
+      },
+      {
+        "word": "сраный",
+        "translations": {
+          "english": {
+            "word": "shitty",
+            "transcription": "[ˈʃɪt.i]"
+          },
+          "spanish": {
+            "word": "mierdoso",
+            "transcription": "[mjerˈðo.so]"
+          }
+        },
+        "transcription": "[ˈsra.nɨj]"
+      },
+      {
+        "word": "ебаться",
+        "translations": {
+          "english": {
+            "word": "fuck",
+            "transcription": "[fʌk]"
+          },
+          "spanish": {
+            "word": "joder",
+            "transcription": "[ˈxo.ðer]"
+          }
+        },
+        "transcription": "[jeˈbatʲ.sya]"
+      },
+      {
+        "word": "хуйпиздец",
+        "translations": {
+          "english": {
+            "word": "total fuck",
+            "transcription": "[total fuck]"
+          },
+          "spanish": {
+            "word": "jodido total",
+            "transcription": "[jodido total]"
+          }
+        },
+        "transcription": "[xuj.pizˈdʲets]"
+      },
+      {
+        "word": "пиздец",
+        "translations": {
+          "english": {
+            "word": "fucked up",
+            "transcription": "[fucked up]"
+          },
+          "spanish": {
+            "word": "jodido",
+            "transcription": "[xoˈði.ðo]"
+          }
+        },
+        "transcription": "[pizˈdʲets]"
+      },
+      {
+        "word": "хуйня",
+        "translations": {
+          "english": {
+            "word": "crap",
+            "transcription": "[kræp]"
+          },
+          "spanish": {
+            "word": "mierda",
+            "transcription": "[ˈmjer.ða]"
+          }
+        },
+        "transcription": "[xujˈnya]"
+      },
+      {
+        "word": "ебаный",
+        "translations": {
+          "english": {
+            "word": "fucking",
+            "transcription": "[ˈfʌk.ɪŋ]"
+          },
+          "spanish": {
+            "word": "jodido",
+            "transcription": "[xoˈði.ðo]"
+          }
+        },
+        "transcription": "[jeˈba.nɨj]"
+      },
+      {
+        "word": "сраный",
+        "translations": {
+          "english": {
+            "word": "shitty",
+            "transcription": "[ˈʃɪt.i]"
+          },
+          "spanish": {
+            "word": "mierdoso",
+            "transcription": "[mjerˈðo.so]"
+          }
+        },
+        "transcription": "[ˈsra.nɨj]"
+      },
+      {
+        "word": "пиздец",
+        "translations": {
+          "english": {
+            "word": "fucked up",
+            "transcription": "[fucked up]"
+          },
+          "spanish": {
+            "word": "jodido",
+            "transcription": "[xoˈði.ðo]"
+          }
+        },
+        "transcription": "[pizˈdʲets]"
+      },
+      {
+        "word": "хуйня",
+        "translations": {
+          "english": {
+            "word": "bullshit",
+            "transcription": "[ˈbʊl.ʃɪt]"
+          },
+          "spanish": {
+            "word": "mierda",
+            "transcription": "[ˈmjer.ða]"
+          }
+        },
+        "transcription": "[xujˈnya]"
+      },
+      {
+        "word": "ебаный",
+        "translations": {
+          "english": {
+            "word": "fucking",
+            "transcription": "[ˈfʌk.ɪŋ]"
+          },
+          "spanish": {
+            "word": "jodido",
+            "transcription": "[xoˈði.ðo]"
+          }
+        },
+        "transcription": "[jeˈba.nɨj]"
+      },
+      {
+        "word": "сраный",
+        "translations": {
+          "english": {
+            "word": "shitty",
+            "transcription": "[ˈʃɪt.i]"
+          },
+          "spanish": {
+            "word": "mierdoso",
+            "transcription": "[mjerˈðo.so]"
+          }
+        },
+        "transcription": "[ˈsra.nɨj]"
+      },
+      {
+        "word": "пиздец",
+        "translations": {
+          "english": {
+            "word": "fucked up",
+            "transcription": "[fucked up]"
+          },
+          "spanish": {
+            "word": "jodido",
+            "transcription": "[xoˈði.ðo]"
+          }
+        },
+        "transcription": "[pizˈdʲets]"
+      },
+      {
+        "word": "хуйня",
+        "translations": {
+          "english": {
+            "word": "crap",
+            "transcription": "[kræp]"
+          },
+          "spanish": {
+            "word": "mierda",
+            "transcription": "[ˈmjer.ða]"
+          }
+        },
+        "transcription": "[xujˈnya]"
+      }
+    ],
+    "english": [
+      {
+        "word": "fuck",
+        "translations": {
+          "russian": {
+            "word": "блять",
+            "transcription": "[blyatʲ]"
+          },
+          "spanish": {
+            "word": "joder",
+            "transcription": "[ˈxo.ðer]"
+          }
+        },
+        "transcription": "[fʌk]"
+      },
+      {
+        "word": "shit",
+        "translations": {
+          "russian": {
+            "word": "гавно",
+            "transcription": "[ɡavˈno]"
+          },
+          "spanish": {
+            "word": "mierda",
+            "transcription": "[ˈmjer.ða]"
+          }
+        },
+        "transcription": "[ʃɪt]"
+      },
+      {
+        "word": "asshole",
+        "translations": {
+          "russian": {
+            "word": "мудак",
+            "transcription": "[muˈdak]"
+          },
+          "spanish": {
+            "word": "cabrón",
+            "transcription": "[kaˈβɾon]"
+          }
+        },
+        "transcription": "[ˈæs.hoʊl]"
+      },
+      {
+        "word": "bitch",
+        "translations": {
+          "russian": {
+            "word": "сука",
+            "transcription": "[ˈsu.ka]"
+          },
+          "spanish": {
+            "word": "puta",
+            "transcription": "[ˈpu.ta]"
+          }
+        },
+        "transcription": "[bɪtʃ]"
+      },
+      {
+        "word": "damn",
+        "translations": {
+          "russian": {
+            "word": "чёрт",
+            "transcription": "[чёрт]"
+          },
+          "spanish": {
+            "word": "maldita sea",
+            "transcription": "[maldita sea]"
+          }
+        },
+        "transcription": "[dæm]"
+      },
+      {
+        "word": "cunt",
+        "translations": {
+          "russian": {
+            "word": "пизда",
+            "transcription": "[pizˈda]"
+          },
+          "spanish": {
+            "word": "coño",
+            "transcription": "[ˈko.ɲo]"
+          }
+        },
+        "transcription": "[kʌnt]"
+      },
+      {
+        "word": "bastard",
+        "translations": {
+          "russian": {
+            "word": "ублюдок",
+            "transcription": "[ублюдок]"
+          },
+          "spanish": {
+            "word": "hijo de puta",
+            "transcription": "[ˈi.xo ðe ˈpu.ta]"
+          }
+        },
+        "transcription": "[ˈbæs.tərd]"
+      },
+      {
+        "word": "dick",
+        "translations": {
+          "russian": {
+            "word": "хуй",
+            "transcription": "[xuj]"
+          },
+          "spanish": {
+            "word": "verga",
+            "transcription": "[ˈber.ɡa]"
+          }
+        },
+        "transcription": "[dɪk]"
+      },
+      {
+        "word": "piss",
+        "translations": {
+          "russian": {
+            "word": "ссать",
+            "transcription": "[ссать]"
+          },
+          "spanish": {
+            "word": "mear",
+            "transcription": "[mear]"
+          }
+        },
+        "transcription": "[pɪs]"
+      },
+      {
+        "word": "cock",
+        "translations": {
+          "russian": {
+            "word": "хуй",
+            "transcription": "[xuj]"
+          },
+          "spanish": {
+            "word": "pija",
+            "transcription": "[ˈpi.xa]"
+          }
+        },
+        "transcription": "[kɒk]"
+      },
+      {
+        "word": "prick",
+        "translations": {
+          "russian": {
+            "word": "хуйло",
+            "transcription": "[xujˈlo]"
+          },
+          "spanish": {
+            "word": "gilipollas",
+            "transcription": "[xi.liˈpo.ʎas]"
+          }
+        },
+        "transcription": "[prɪk]"
+      },
+      {
+        "word": "twat",
+        "translations": {
+          "russian": {
+            "word": "пизда",
+            "transcription": "[pizˈda]"
+          },
+          "spanish": {
+            "word": "coño",
+            "transcription": "[ˈko.ɲo]"
+          }
+        },
+        "transcription": "[twɒt]"
+      },
+      {
+        "word": "bullshit",
+        "translations": {
+          "russian": {
+            "word": "хуйня",
+            "transcription": "[xujˈnya]"
+          },
+          "spanish": {
+            "word": "mierda",
+            "transcription": "[ˈmjer.ða]"
+          }
+        },
+        "transcription": "[ˈbʊl.ʃɪt]"
+      },
+      {
+        "word": "fucker",
+        "translations": {
+          "russian": {
+            "word": "ебарь",
+            "transcription": "[jeˈbarʲ]"
+          },
+          "spanish": {
+            "word": "chingón",
+            "transcription": "[tʃinˈɡon]"
+          }
+        },
+        "transcription": "[ˈfʌk.ər]"
+      },
+      {
+        "word": "ass",
+        "translations": {
+          "russian": {
+            "word": "жопа",
+            "transcription": "[ˈʐo.pa]"
+          },
+          "spanish": {
+            "word": "culo",
+            "transcription": "[ˈku.lo]"
+          }
+        },
+        "transcription": "[æs]"
+      },
+      {
+        "word": "motherfucker",
+        "translations": {
+          "russian": {
+            "word": "ебаный в рот",
+            "transcription": "[ебаный в рот]"
+          },
+          "spanish": {
+            "word": "hijo de puta",
+            "transcription": "[ˈi.xo ðe ˈpu.ta]"
+          }
+        },
+        "transcription": "[ˈmʌð.ərˌfʌk.ər]"
+      },
+      {
+        "word": "crap",
+        "translations": {
+          "russian": {
+            "word": "дерьмо",
+            "transcription": "[dʲerʲˈmo]"
+          },
+          "spanish": {
+            "word": "mierda",
+            "transcription": "[ˈmjer.ða]"
+          }
+        },
+        "transcription": "[kræp]"
+      },
+      {
+        "word": "wanker",
+        "translations": {
+          "russian": {
+            "word": "дрочер",
+            "transcription": "[дрочер]"
+          },
+          "spanish": {
+            "word": "pajero",
+            "transcription": "[paˈxe.ɾo]"
+          }
+        },
+        "transcription": "[ˈwæŋ.kər]"
+      },
+      {
+        "word": "slut",
+        "translations": {
+          "russian": {
+            "word": "шлюха",
+            "transcription": "[ˈʃlʲu.xa]"
+          },
+          "spanish": {
+            "word": "puta",
+            "transcription": "[ˈpu.ta]"
+          }
+        },
+        "transcription": "[slʌt]"
+      },
+      {
+        "word": "douche",
+        "translations": {
+          "russian": {
+            "word": "мудак",
+            "transcription": "[muˈdak]"
+          },
+          "spanish": {
+            "word": "imbécil",
+            "transcription": "[imbécil]"
+          }
+        },
+        "transcription": "[duʃ]"
+      },
+      {
+        "word": "arse",
+        "translations": {
+          "russian": {
+            "word": "жопа",
+            "transcription": "[ˈʐo.pa]"
+          },
+          "spanish": {
+            "word": "culo",
+            "transcription": "[ˈku.lo]"
+          }
+        },
+        "transcription": "[ɑrs]"
+      },
+      {
+        "word": "bollocks",
+        "translations": {
+          "russian": {
+            "word": "яйца",
+            "transcription": "[яйца]"
+          },
+          "spanish": {
+            "word": "cojones",
+            "transcription": "[koˈxo.nes]"
+          }
+        },
+        "transcription": "[ˈbɒl.əks]"
+      },
+      {
+        "word": "fucking",
+        "translations": {
+          "russian": {
+            "word": "ебаный",
+            "transcription": "[jeˈba.nɨj]"
+          },
+          "spanish": {
+            "word": "jodido",
+            "transcription": "[xoˈði.ðo]"
+          }
+        },
+        "transcription": "[ˈfʌk.ɪŋ]"
+      },
+      {
+        "word": "pussy",
+        "translations": {
+          "russian": {
+            "word": "пизда",
+            "transcription": "[pizˈda]"
+          },
+          "spanish": {
+            "word": "coño",
+            "transcription": "[ˈko.ɲo]"
+          }
+        },
+        "transcription": "[ˈpʊs.i]"
+      },
+      {
+        "word": "jackass",
+        "translations": {
+          "russian": {
+            "word": "осёл",
+            "transcription": "[осёл]"
+          },
+          "spanish": {
+            "word": "burro",
+            "transcription": "[burro]"
+          }
+        },
+        "transcription": "[ˈdʒæk.æs]"
+      },
+      {
+        "word": "whore",
+        "translations": {
+          "russian": {
+            "word": "блядь",
+            "transcription": "[blyatʲ]"
+          },
+          "spanish": {
+            "word": "puta",
+            "transcription": "[ˈpu.ta]"
+          }
+        },
+        "transcription": "[hɔr]"
+      },
+      {
+        "word": "shag",
+        "translations": {
+          "russian": {
+            "word": "ебать",
+            "transcription": "[jeˈbatʲ]"
+          },
+          "spanish": {
+            "word": "joder",
+            "transcription": "[ˈxo.ðer]"
+          }
+        },
+        "transcription": "[ʃæɡ]"
+      },
+      {
+        "word": "tosser",
+        "translations": {
+          "russian": {
+            "word": "дрочер",
+            "transcription": "[дрочер]"
+          },
+          "spanish": {
+            "word": "pajero",
+            "transcription": "[paˈxe.ɾo]"
+          }
+        },
+        "transcription": "[ˈtɒs.ər]"
+      },
+      {
+        "word": "bugger",
+        "translations": {
+          "russian": {
+            "word": "пидор",
+            "transcription": "[piˈdor]"
+          },
+          "spanish": {
+            "word": "maricón",
+            "transcription": "[ma.ɾiˈkon]"
+          }
+        },
+        "transcription": "[ˈbʌɡ.ər]"
+      },
+      {
+        "word": "dickhead",
+        "translations": {
+          "russian": {
+            "word": "хуйло",
+            "transcription": "[xujˈlo]"
+          },
+          "spanish": {
+            "word": "vergon",
+            "transcription": "[berˈɡon]"
+          }
+        },
+        "transcription": "[ˈdɪk.hɛd]"
+      },
+      {
+        "word": "arsehole",
+        "translations": {
+          "russian": {
+            "word": "мудак",
+            "transcription": "[muˈdak]"
+          },
+          "spanish": {
+            "word": "cabrón",
+            "transcription": "[kaˈβɾon]"
+          }
+        },
+        "transcription": "[ˈɑrs.hoʊl]"
+      },
+      {
+        "word": "shithead",
+        "translations": {
+          "russian": {
+            "word": "говнюк",
+            "transcription": "[ɡavˈnjuk]"
+          },
+          "spanish": {
+            "word": "mierdoso",
+            "transcription": "[mjerˈðo.so]"
+          }
+        },
+        "transcription": "[ˈʃɪt.hɛd]"
+      },
+      {
+        "word": "faggot",
+        "translations": {
+          "russian": {
+            "word": "пидор",
+            "transcription": "[piˈdor]"
+          },
+          "spanish": {
+            "word": "maricón",
+            "transcription": "[ma.ɾiˈkon]"
+          }
+        },
+        "transcription": "[ˈfæɡ.ət]"
+      },
+      {
+        "word": "nigger",
+        "translations": {
+          "russian": {
+            "word": "негр (оск.)",
+            "transcription": "[негр (оск.)]"
+          },
+          "spanish": {
+            "word": "negro (оск.)",
+            "transcription": "[negro (оск.)]"
+          }
+        },
+        "transcription": "[ˈnɪɡ.ər]"
+      },
+      {
+        "word": "cocksucker",
+        "translations": {
+          "russian": {
+            "word": "хуесос",
+            "transcription": "[xu.jeˈsos]"
+          },
+          "spanish": {
+            "word": "mamón",
+            "transcription": "[maˈmon]"
+          }
+        },
+        "transcription": "[ˈkɒkˌsʌk.ər]"
+      },
+      {
+        "word": "son of a bitch",
+        "translations": {
+          "russian": {
+            "word": "сукин сын",
+            "transcription": "[сукин сын]"
+          },
+          "spanish": {
+            "word": "hijo de puta",
+            "transcription": "[ˈi.xo ðe ˈpu.ta]"
+          }
+        },
+        "transcription": "[sʌn əv ə bɪtʃ]"
+      },
+      {
+        "word": "twit",
+        "translations": {
+          "russian": {
+            "word": "придурок",
+            "transcription": "[придурок]"
+          },
+          "spanish": {
+            "word": "tonto",
+            "transcription": "[tonto]"
+          }
+        },
+        "transcription": "[twɪt]"
+      },
+      {
+        "word": "moron",
+        "translations": {
+          "russian": {
+            "word": "еблан",
+            "transcription": "[jeˈblan]"
+          },
+          "spanish": {
+            "word": "imbécil",
+            "transcription": "[imbécil]"
+          }
+        },
+        "transcription": "[ˈmɔr.ɒn]"
+      },
+      {
+        "word": "jerk",
+        "translations": {
+          "russian": {
+            "word": "засранец",
+            "transcription": "[zaˈsra.nʲets]"
+          },
+          "spanish": {
+            "word": "gilipollas",
+            "transcription": "[xi.liˈpo.ʎas]"
+          }
+        },
+        "transcription": "[dʒɜrk]"
+      },
+      {
+        "word": "dipshit",
+        "translations": {
+          "russian": {
+            "word": "долбоёб",
+            "transcription": "[dol.boˈjop]"
+          },
+          "spanish": {
+            "word": "pendejo",
+            "transcription": "[penˈde.xo]"
+          }
+        },
+        "transcription": "[ˈdɪp.ʃɪt]"
+      },
+      {
+        "word": "fuckwit",
+        "translations": {
+          "russian": {
+            "word": "ебанутый",
+            "transcription": "[ебанутый]"
+          },
+          "spanish": {
+            "word": "jodido idiota",
+            "transcription": "[jodido idiota]"
+          }
+        },
+        "transcription": "[ˈfʌk.wɪt]"
+      },
+      {
+        "word": "shitty",
+        "translations": {
+          "russian": {
+            "word": "хуёвый",
+            "transcription": "[xuˈjo.vɨj]"
+          },
+          "spanish": {
+            "word": "mierdoso",
+            "transcription": "[mjerˈðo.so]"
+          }
+        },
+        "transcription": "[ˈʃɪt.i]"
+      },
+      {
+        "word": "pissed",
+        "translations": {
+          "russian": {
+            "word": "пиздец",
+            "transcription": "[pizˈdʲets]"
+          },
+          "spanish": {
+            "word": "cabreado",
+            "transcription": "[cabreado]"
+          }
+        },
+        "transcription": "[pɪst]"
+      },
+      {
+        "word": "dumbass",
+        "translations": {
+          "russian": {
+            "word": "долбоёб",
+            "transcription": "[dol.boˈjop]"
+          },
+          "spanish": {
+            "word": "pendejo",
+            "transcription": "[penˈde.xo]"
+          }
+        },
+        "transcription": "[ˈdʌm.æs]"
+      },
+      {
+        "word": "freak",
+        "translations": {
+          "russian": {
+            "word": "уёбок",
+            "transcription": "[uˈjo.bok]"
+          },
+          "spanish": {
+            "word": "raro",
+            "transcription": "[raro]"
+          }
+        },
+        "transcription": "[frik]"
+      },
+      {
+        "word": "retard",
+        "translations": {
+          "russian": {
+            "word": "дебил",
+            "transcription": "[дебил]"
+          },
+          "spanish": {
+            "word": "retrasado",
+            "transcription": "[retrasado]"
+          }
+        },
+        "transcription": "[rɪˈtɑrd]"
+      },
+      {
+        "word": "schmuck",
+        "translations": {
+          "russian": {
+            "word": "мудак",
+            "transcription": "[muˈdak]"
+          },
+          "spanish": {
+            "word": "cabrón",
+            "transcription": "[kaˈβɾon]"
+          }
+        },
+        "transcription": "[ʃmʌk]"
+      },
+      {
+        "word": "bint",
+        "translations": {
+          "russian": {
+            "word": "сучка",
+            "transcription": "[ˈsutʃ.ka]"
+          },
+          "spanish": {
+            "word": "putilla",
+            "transcription": "[puˈti.ʎa]"
+          }
+        },
+        "transcription": "[bɪnt]"
+      },
+      {
+        "word": "skank",
+        "translations": {
+          "russian": {
+            "word": "шлюха",
+            "transcription": "[ˈʃlʲu.xa]"
+          },
+          "spanish": {
+            "word": "puta",
+            "transcription": "[ˈpu.ta]"
+          }
+        },
+        "transcription": "[skæŋk]"
+      },
+      {
+        "word": "pricktease",
+        "translations": {
+          "russian": {
+            "word": "хуйдразнилка",
+            "transcription": "[хуйдразнилка]"
+          },
+          "spanish": {
+            "word": "calientapijas",
+            "transcription": "[calientapijas]"
+          }
+        },
+        "transcription": "[ˈprɪk.tiz]"
+      },
+      {
+        "word": "fuckface",
+        "translations": {
+          "russian": {
+            "word": "ебало",
+            "transcription": "[jeˈba.lo]"
+          },
+          "spanish": {
+            "word": "cara de mierda",
+            "transcription": "[cara de mierda]"
+          }
+        },
+        "transcription": "[ˈfʌk.feɪs]"
+      },
+      {
+        "word": "shitbag",
+        "translations": {
+          "russian": {
+            "word": "говнюк",
+            "transcription": "[ɡavˈnjuk]"
+          },
+          "spanish": {
+            "word": "mierdoso",
+            "transcription": "[mjerˈðo.so]"
+          }
+        },
+        "transcription": "[ˈʃɪt.bæɡ]"
+      },
+      {
+        "word": "asswipe",
+        "translations": {
+          "russian": {
+            "word": "жополиз",
+            "transcription": "[жополиз]"
+          },
+          "spanish": {
+            "word": "lameculos",
+            "transcription": "[lameculos]"
+          }
+        },
+        "transcription": "[ˈæs.waɪp]"
+      },
+      {
+        "word": "douchebag",
+        "translations": {
+          "russian": {
+            "word": "мудак",
+            "transcription": "[muˈdak]"
+          },
+          "spanish": {
+            "word": "gilipollas",
+            "transcription": "[xi.liˈpo.ʎas]"
+          }
+        },
+        "transcription": "[ˈduʃ.bæɡ]"
+      },
+      {
+        "word": "cocktease",
+        "translations": {
+          "russian": {
+            "word": "хуйдразнилка",
+            "transcription": "[хуйдразнилка]"
+          },
+          "spanish": {
+            "word": "calientavergas",
+            "transcription": "[calientavergas]"
+          }
+        },
+        "transcription": "[ˈkɒk.tiz]"
+      },
+      {
+        "word": "fuckoff",
+        "translations": {
+          "russian": {
+            "word": "нахуй",
+            "transcription": "[naˈxuj]"
+          },
+          "spanish": {
+            "word": "vete a la mierda",
+            "transcription": "[vete a la mierda]"
+          }
+        },
+        "transcription": "[fʌkˈɒf]"
+      },
+      {
+        "word": "shitface",
+        "translations": {
+          "russian": {
+            "word": "говноед",
+            "transcription": "[ɡav.noˈjed]"
+          },
+          "spanish": {
+            "word": "cara de mierda",
+            "transcription": "[cara de mierda]"
+          }
+        },
+        "transcription": "[ˈʃɪt.feɪs]"
+      },
+      {
+        "word": "arsewipe",
+        "translations": {
+          "russian": {
+            "word": "жополиз",
+            "transcription": "[жополиз]"
+          },
+          "spanish": {
+            "word": "lameculos",
+            "transcription": "[lameculos]"
+          }
+        },
+        "transcription": "[ˈɑrs.waɪp]"
+      },
+      {
+        "word": "fuckhead",
+        "translations": {
+          "russian": {
+            "word": "ебанутый",
+            "transcription": "[ебанутый]"
+          },
+          "spanish": {
+            "word": "jodido idiota",
+            "transcription": "[jodido idiota]"
+          }
+        },
+        "transcription": "[ˈfʌk.hɛd]"
+      },
+      {
+        "word": "twatface",
+        "translations": {
+          "russian": {
+            "word": "пиздец лицо",
+            "transcription": "[пиздец лицо]"
+          },
+          "spanish": {
+            "word": "cara de coño",
+            "transcription": "[cara de coño]"
+          }
+        },
+        "transcription": "[ˈtwɒt.feɪs]"
+      },
+      {
+        "word": "shithole",
+        "translations": {
+          "russian": {
+            "word": "сраная дыра",
+            "transcription": "[сраная дыра]"
+          },
+          "spanish": {
+            "word": "agujero de mierda",
+            "transcription": "[agujero de mierda]"
+          }
+        },
+        "transcription": "[ˈʃɪt.hoʊl]"
+      },
+      {
+        "word": "fucknut",
+        "translations": {
+          "russian": {
+            "word": "ебанат",
+            "transcription": "[je.baˈnat]"
+          },
+          "spanish": {
+            "word": "loco jodido",
+            "transcription": "[loco jodido]"
+          }
+        },
+        "transcription": "[ˈfʌk.nʌt]"
+      },
+      {
+        "word": "asshat",
+        "translations": {
+          "russian": {
+            "word": "мудак",
+            "transcription": "[muˈdak]"
+          },
+          "spanish": {
+            "word": "cabrón",
+            "transcription": "[kaˈβɾon]"
+          }
+        },
+        "transcription": "[ˈæs.hæt]"
+      },
+      {
+        "word": "cuntface",
+        "translations": {
+          "russian": {
+            "word": "пиздец лицо",
+            "transcription": "[пиздец лицо]"
+          },
+          "spanish": {
+            "word": "cara de coño",
+            "transcription": "[cara de coño]"
+          }
+        },
+        "transcription": "[ˈkʌnt.feɪs]"
+      },
+      {
+        "word": "pisshead",
+        "translations": {
+          "russian": {
+            "word": "пьянь",
+            "transcription": "[пьянь]"
+          },
+          "spanish": {
+            "word": "borracho",
+            "transcription": "[borracho]"
+          }
+        },
+        "transcription": "[ˈpɪs.hɛd]"
+      },
+      {
+        "word": "fucktard",
+        "translations": {
+          "russian": {
+            "word": "ебанутый",
+            "transcription": "[ебанутый]"
+          },
+          "spanish": {
+            "word": "jodido idiota",
+            "transcription": "[jodido idiota]"
+          }
+        },
+        "transcription": "[ˈfʌk.tɑrd]"
+      },
+      {
+        "word": "shitstain",
+        "translations": {
+          "russian": {
+            "word": "гавно",
+            "transcription": "[ɡavˈno]"
+          },
+          "spanish": {
+            "word": "mancha de mierda",
+            "transcription": "[mancha de mierda]"
+          }
+        },
+        "transcription": "[ˈʃɪt.steɪn]"
+      },
+      {
+        "word": "cockwomble",
+        "translations": {
+          "russian": {
+            "word": "хуйло",
+            "transcription": "[xujˈlo]"
+          },
+          "spanish": {
+            "word": "vergon",
+            "transcription": "[berˈɡon]"
+          }
+        },
+        "transcription": "[ˈkɒk.wɒm.bəl]"
+      },
+      {
+        "word": "dickwad",
+        "translations": {
+          "russian": {
+            "word": "хуйня",
+            "transcription": "[xujˈnya]"
+          },
+          "spanish": {
+            "word": "verga",
+            "transcription": "[ˈber.ɡa]"
+          }
+        },
+        "transcription": "[ˈdɪk.wɒd]"
+      },
+      {
+        "word": "arsebandit",
+        "translations": {
+          "russian": {
+            "word": "пидор",
+            "transcription": "[piˈdor]"
+          },
+          "spanish": {
+            "word": "maricón",
+            "transcription": "[ma.ɾiˈkon]"
+          }
+        },
+        "transcription": "[ˈɑrsˌbæn.dɪt]"
+      },
+      {
+        "word": "fuckery",
+        "translations": {
+          "russian": {
+            "word": "ебанятина",
+            "transcription": "[je.baˈnya.ti.na]"
+          },
+          "spanish": {
+            "word": "jodidez",
+            "transcription": "[jodidez]"
+          }
+        },
+        "transcription": "[ˈfʌk.ər.i]"
+      },
+      {
+        "word": "shitfuck",
+        "translations": {
+          "russian": {
+            "word": "хуйпиздец",
+            "transcription": "[xuj.pizˈdʲets]"
+          },
+          "spanish": {
+            "word": "mierda jodida",
+            "transcription": "[mierda jodida]"
+          }
+        },
+        "transcription": "[ˈʃɪt.fʌk]"
+      },
+      {
+        "word": "cockshit",
+        "translations": {
+          "russian": {
+            "word": "хуйня",
+            "transcription": "[xujˈnya]"
+          },
+          "spanish": {
+            "word": "verga mierda",
+            "transcription": "[verga mierda]"
+          }
+        },
+        "transcription": "[ˈkɒk.ʃɪt]"
+      },
+      {
+        "word": "assfuck",
+        "translations": {
+          "russian": {
+            "word": "жопоеб",
+            "transcription": "[жопоеб]"
+          },
+          "spanish": {
+            "word": "culo jodido",
+            "transcription": "[culo jodido]"
+          }
+        },
+        "transcription": "[ˈæs.fʌk]"
+      },
+      {
+        "word": "pissfuck",
+        "translations": {
+          "russian": {
+            "word": "ссатьебать",
+            "transcription": "[ссатьебать]"
+          },
+          "spanish": {
+            "word": "mear joder",
+            "transcription": "[mear joder]"
+          }
+        },
+        "transcription": "[ˈpɪs.fʌk]"
+      },
+      {
+        "word": "cuntfuck",
+        "translations": {
+          "russian": {
+            "word": "пиздец",
+            "transcription": "[pizˈdʲets]"
+          },
+          "spanish": {
+            "word": "coño jodido",
+            "transcription": "[coño jodido]"
+          }
+        },
+        "transcription": "[ˈkʌnt.fʌk]"
+      },
+      {
+        "word": "fuckshit",
+        "translations": {
+          "russian": {
+            "word": "хуйня",
+            "transcription": "[xujˈnya]"
+          },
+          "spanish": {
+            "word": "joder mierda",
+            "transcription": "[joder mierda]"
+          }
+        },
+        "transcription": "[ˈfʌk.ʃɪt]"
+      },
+      {
+        "word": "dickfuck",
+        "translations": {
+          "russian": {
+            "word": "хуйебать",
+            "transcription": "[хуйебать]"
+          },
+          "spanish": {
+            "word": "verga joder",
+            "transcription": "[verga joder]"
+          }
+        },
+        "transcription": "[ˈdɪk.fʌk]"
+      },
+      {
+        "word": "shitass",
+        "translations": {
+          "russian": {
+            "word": "срака",
+            "transcription": "[ˈsra.ka]"
+          },
+          "spanish": {
+            "word": "culo mierda",
+            "transcription": "[culo mierda]"
+          }
+        },
+        "transcription": "[ˈʃɪt.æs]"
+      },
+      {
+        "word": "fuckass",
+        "translations": {
+          "russian": {
+            "word": "ебаная жопа",
+            "transcription": "[ебаная жопа]"
+          },
+          "spanish": {
+            "word": "culo jodido",
+            "transcription": "[culo jodido]"
+          }
+        },
+        "transcription": "[ˈfʌk.æs]"
+      },
+      {
+        "word": "cuntbag",
+        "translations": {
+          "russian": {
+            "word": "пиздец",
+            "transcription": "[pizˈdʲets]"
+          },
+          "spanish": {
+            "word": "coño mierda",
+            "transcription": "[coño mierda]"
+          }
+        },
+        "transcription": "[ˈkʌnt.bæɡ]"
+      },
+      {
+        "word": "pissbag",
+        "translations": {
+          "russian": {
+            "word": "ссыкун",
+            "transcription": "[ссыкун]"
+          },
+          "spanish": {
+            "word": "mear mierda",
+            "transcription": "[mear mierda]"
+          }
+        },
+        "transcription": "[ˈpɪs.bæɡ]"
+      },
+      {
+        "word": "shitbag",
+        "translations": {
+          "russian": {
+            "word": "говнюк",
+            "transcription": "[ɡavˈnjuk]"
+          },
+          "spanish": {
+            "word": "mierdoso",
+            "transcription": "[mjerˈðo.so]"
+          }
+        },
+        "transcription": "[ˈʃɪt.bæɡ]"
+      },
+      {
+        "word": "dickbag",
+        "translations": {
+          "russian": {
+            "word": "хуйня",
+            "transcription": "[xujˈnya]"
+          },
+          "spanish": {
+            "word": "verga mierda",
+            "transcription": "[verga mierda]"
+          }
+        },
+        "transcription": "[ˈdɪk.bæɡ]"
+      },
+      {
+        "word": "assbag",
+        "translations": {
+          "russian": {
+            "word": "жополиз",
+            "transcription": "[жополиз]"
+          },
+          "spanish": {
+            "word": "culo mierda",
+            "transcription": "[culo mierda]"
+          }
+        },
+        "transcription": "[ˈæs.bæɡ]"
+      },
+      {
+        "word": "fuckbag",
+        "translations": {
+          "russian": {
+            "word": "ебаный",
+            "transcription": "[jeˈba.nɨj]"
+          },
+          "spanish": {
+            "word": "jodido mierda",
+            "transcription": "[jodido mierda]"
+          }
+        },
+        "transcription": "[ˈfʌk.bæɡ]"
+      },
+      {
+        "word": "cuntwad",
+        "translations": {
+          "russian": {
+            "word": "пиздец",
+            "transcription": "[pizˈdʲets]"
+          },
+          "spanish": {
+            "word": "coño mierda",
+            "transcription": "[coño mierda]"
+          }
+        },
+        "transcription": "[ˈkʌnt.wɒd]"
+      },
+      {
+        "word": "pisswad",
+        "translations": {
+          "russian": {
+            "word": "ссыкун",
+            "transcription": "[ссыкун]"
+          },
+          "spanish": {
+            "word": "mear mierda",
+            "transcription": "[mear mierda]"
+          }
+        },
+        "transcription": "[ˈpɪs.wɒd]"
+      },
+      {
+        "word": "shitwad",
+        "translations": {
+          "russian": {
+            "word": "говнюк",
+            "transcription": "[ɡavˈnjuk]"
+          },
+          "spanish": {
+            "word": "mierdoso",
+            "transcription": "[mjerˈðo.so]"
+          }
+        },
+        "transcription": "[ˈʃɪt.wɒd]"
+      },
+      {
+        "word": "dickwad",
+        "translations": {
+          "russian": {
+            "word": "хуйня",
+            "transcription": "[xujˈnya]"
+          },
+          "spanish": {
+            "word": "verga mierda",
+            "transcription": "[verga mierda]"
+          }
+        },
+        "transcription": "[ˈdɪk.wɒd]"
+      },
+      {
+        "word": "assclown",
+        "translations": {
+          "russian": {
+            "word": "мудак",
+            "transcription": "[muˈdak]"
+          },
+          "spanish": {
+            "word": "payaso culo",
+            "transcription": "[payaso culo]"
+          }
+        },
+        "transcription": "[ˈæs.klaʊn]"
+      },
+      {
+        "word": "fuckclown",
+        "translations": {
+          "russian": {
+            "word": "ебанутый",
+            "transcription": "[ебанутый]"
+          },
+          "spanish": {
+            "word": "payaso jodido",
+            "transcription": "[payaso jodido]"
+          }
+        },
+        "transcription": "[ˈfʌk.klaʊn]"
+      },
+      {
+        "word": "shitclown",
+        "translations": {
+          "russian": {
+            "word": "говнюк",
+            "transcription": "[ɡavˈnjuk]"
+          },
+          "spanish": {
+            "word": "payaso mierda",
+            "transcription": "[payaso mierda]"
+          }
+        },
+        "transcription": "[ˈʃɪt.klaʊn]"
+      },
+      {
+        "word": "dickclown",
+        "translations": {
+          "russian": {
+            "word": "хуйло",
+            "transcription": "[xujˈlo]"
+          },
+          "spanish": {
+            "word": "payaso verga",
+            "transcription": "[payaso verga]"
+          }
+        },
+        "transcription": "[ˈdɪk.klaʊn]"
+      },
+      {
+        "word": "cuntclown",
+        "translations": {
+          "russian": {
+            "word": "пиздец",
+            "transcription": "[pizˈdʲets]"
+          },
+          "spanish": {
+            "word": "payaso coño",
+            "transcription": "[payaso coño]"
+          }
+        },
+        "transcription": "[ˈkʌnt.klaʊn]"
+      },
+      {
+        "word": "pissclown",
+        "translations": {
+          "russian": {
+            "word": "ссыкун",
+            "transcription": "[ссыкун]"
+          },
+          "spanish": {
+            "word": "payaso mear",
+            "transcription": "[payaso mear]"
+          }
+        },
+        "transcription": "[ˈpɪs.klaʊn]"
+      },
+      {
+        "word": "arseclown",
+        "translations": {
+          "russian": {
+            "word": "жополиз",
+            "transcription": "[жополиз]"
+          },
+          "spanish": {
+            "word": "payaso culo",
+            "transcription": "[payaso culo]"
+          }
+        },
+        "transcription": "[ˈɑrs.klaʊn]"
+      },
+      {
+        "word": "twatclown",
+        "translations": {
+          "russian": {
+            "word": "пиздец",
+            "transcription": "[pizˈdʲets]"
+          },
+          "spanish": {
+            "word": "payaso coño",
+            "transcription": "[payaso coño]"
+          }
+        },
+        "transcription": "[ˈtwɒt.klaʊn]"
+      }
+    ],
+    "spanish": [
+      {
+        "word": "joder",
+        "translations": {
+          "russian": {
+            "word": "блять",
+            "transcription": "[blyatʲ]"
+          },
+          "english": {
+            "word": "fuck",
+            "transcription": "[fʌk]"
+          }
+        },
+        "transcription": "[ˈxo.ðer]"
+      },
+      {
+        "word": "puta",
+        "translations": {
+          "russian": {
+            "word": "сука",
+            "transcription": "[ˈsu.ka]"
+          },
+          "english": {
+            "word": "bitch",
+            "transcription": "[bɪtʃ]"
+          }
+        },
+        "transcription": "[ˈpu.ta]"
+      },
+      {
+        "word": "mierda",
+        "translations": {
+          "russian": {
+            "word": "гавно",
+            "transcription": "[ɡavˈno]"
+          },
+          "english": {
+            "word": "shit",
+            "transcription": "[ʃɪt]"
+          }
+        },
+        "transcription": "[ˈmjer.ða]"
+      },
+      {
+        "word": "cabrón",
+        "translations": {
+          "russian": {
+            "word": "мудак",
+            "transcription": "[muˈdak]"
+          },
+          "english": {
+            "word": "asshole",
+            "transcription": "[ˈæs.hoʊl]"
+          }
+        },
+        "transcription": "[kaˈβɾon]"
+      },
+      {
+        "word": "coño",
+        "translations": {
+          "russian": {
+            "word": "пизда",
+            "transcription": "[pizˈda]"
+          },
+          "english": {
+            "word": "cunt",
+            "transcription": "[kʌnt]"
+          }
+        },
+        "transcription": "[ˈko.ɲo]"
+      },
+      {
+        "word": "pendejo",
+        "translations": {
+          "russian": {
+            "word": "долбоёб",
+            "transcription": "[dol.boˈjop]"
+          },
+          "english": {
+            "word": "dumbass",
+            "transcription": "[ˈdʌm.æs]"
+          }
+        },
+        "transcription": "[penˈde.xo]"
+      },
+      {
+        "word": "carajo",
+        "translations": {
+          "russian": {
+            "word": "чёрт",
+            "transcription": "[чёрт]"
+          },
+          "english": {
+            "word": "damn",
+            "transcription": "[dæm]"
+          }
+        },
+        "transcription": "[kaˈɾa.xo]"
+      },
+      {
+        "word": "hijo de puta",
+        "translations": {
+          "russian": {
+            "word": "сукин сын",
+            "transcription": "[сукин сын]"
+          },
+          "english": {
+            "word": "son of a bitch",
+            "transcription": "[sʌn əv ə bɪtʃ]"
+          }
+        },
+        "transcription": "[ˈi.xo ðe ˈpu.ta]"
+      },
+      {
+        "word": "culo",
+        "translations": {
+          "russian": {
+            "word": "жопа",
+            "transcription": "[ˈʐo.pa]"
+          },
+          "english": {
+            "word": "ass",
+            "transcription": "[æs]"
+          }
+        },
+        "transcription": "[ˈku.lo]"
+      },
+      {
+        "word": "gilipollas",
+        "translations": {
+          "russian": {
+            "word": "придурок",
+            "transcription": "[придурок]"
+          },
+          "english": {
+            "word": "jerk",
+            "transcription": "[dʒɜrk]"
+          }
+        },
+        "transcription": "[xi.liˈpo.ʎas]"
+      },
+      {
+        "word": "maricón",
+        "translations": {
+          "russian": {
+            "word": "пидор",
+            "transcription": "[piˈdor]"
+          },
+          "english": {
+            "word": "faggot",
+            "transcription": "[ˈfæɡ.ət]"
+          }
+        },
+        "transcription": "[ma.ɾiˈkon]"
+      },
+      {
+        "word": "verga",
+        "translations": {
+          "russian": {
+            "word": "хуй",
+            "transcription": "[xuj]"
+          },
+          "english": {
+            "word": "dick",
+            "transcription": "[dɪk]"
+          }
+        },
+        "transcription": "[ˈber.ɡa]"
+      },
+      {
+        "word": "chingar",
+        "translations": {
+          "russian": {
+            "word": "ебать",
+            "transcription": "[jeˈbatʲ]"
+          },
+          "english": {
+            "word": "fuck",
+            "transcription": "[fʌk]"
+          }
+        },
+        "transcription": "[tʃinˈɡar]"
+      },
+      {
+        "word": "puto",
+        "translations": {
+          "russian": {
+            "word": "пидор",
+            "transcription": "[piˈdor]"
+          },
+          "english": {
+            "word": "faggot",
+            "transcription": "[ˈfæɡ.ət]"
+          }
+        },
+        "transcription": "[ˈpu.to]"
+      },
+      {
+        "word": "pinche",
+        "translations": {
+          "russian": {
+            "word": "ебаный",
+            "transcription": "[jeˈba.nɨj]"
+          },
+          "english": {
+            "word": "fucking",
+            "transcription": "[ˈfʌk.ɪŋ]"
+          }
+        },
+        "transcription": "[ˈpin.tʃe]"
+      },
+      {
+        "word": "mamón",
+        "translations": {
+          "russian": {
+            "word": "хуесос",
+            "transcription": "[xu.jeˈsos]"
+          },
+          "english": {
+            "word": "cocksucker",
+            "transcription": "[ˈkɒkˌsʌk.ər]"
+          }
+        },
+        "transcription": "[maˈmon]"
+      },
+      {
+        "word": "huevón",
+        "translations": {
+          "russian": {
+            "word": "лентяй",
+            "transcription": "[лентяй]"
+          },
+          "english": {
+            "word": "lazy ass",
+            "transcription": "[lazy ass]"
+          }
+        },
+        "transcription": "[weˈβon]"
+      },
+      {
+        "word": "cagada",
+        "translations": {
+          "russian": {
+            "word": "дерьмо",
+            "transcription": "[dʲerʲˈmo]"
+          },
+          "english": {
+            "word": "screw-up",
+            "transcription": "[screw-up]"
+          }
+        },
+        "transcription": "[kaˈɡa.ða]"
+      },
+      {
+        "word": "boludo",
+        "translations": {
+          "russian": {
+            "word": "долбоёб",
+            "transcription": "[dol.boˈjop]"
+          },
+          "english": {
+            "word": "idiot",
+            "transcription": "[idiot]"
+          }
+        },
+        "transcription": "[boˈlu.ðo]"
+      },
+      {
+        "word": "pendejada",
+        "translations": {
+          "russian": {
+            "word": "хуйня",
+            "transcription": "[xujˈnya]"
+          },
+          "english": {
+            "word": "bullshit",
+            "transcription": "[ˈbʊl.ʃɪt]"
+          }
+        },
+        "transcription": "[pen.deˈxa.ða]"
+      },
+      {
+        "word": "chingada",
+        "translations": {
+          "russian": {
+            "word": "ебаный",
+            "transcription": "[jeˈba.nɨj]"
+          },
+          "english": {
+            "word": "fucked",
+            "transcription": "[fucked]"
+          }
+        },
+        "transcription": "[tʃinˈɡa.ða]"
+      },
+      {
+        "word": "cagón",
+        "translations": {
+          "russian": {
+            "word": "трус",
+            "transcription": "[трус]"
+          },
+          "english": {
+            "word": "coward",
+            "transcription": "[coward]"
+          }
+        },
+        "transcription": "[kaˈɡon]"
+      },
+      {
+        "word": "putada",
+        "translations": {
+          "russian": {
+            "word": "подляна",
+            "transcription": "[подляна]"
+          },
+          "english": {
+            "word": "dirty trick",
+            "transcription": "[dirty trick]"
+          }
+        },
+        "transcription": "[puˈta.ða]"
+      },
+      {
+        "word": "mierdoso",
+        "translations": {
+          "russian": {
+            "word": "хуёвый",
+            "transcription": "[xuˈjo.vɨj]"
+          },
+          "english": {
+            "word": "shitty",
+            "transcription": "[ˈʃɪt.i]"
+          }
+        },
+        "transcription": "[mjerˈðo.so]"
+      },
+      {
+        "word": "jodido",
+        "translations": {
+          "russian": {
+            "word": "пиздец",
+            "transcription": "[pizˈdʲets]"
+          },
+          "english": {
+            "word": "fucked up",
+            "transcription": "[fucked up]"
+          }
+        },
+        "transcription": "[xoˈði.ðo]"
+      },
+      {
+        "word": "cabronazo",
+        "translations": {
+          "russian": {
+            "word": "мудак",
+            "transcription": "[muˈdak]"
+          },
+          "english": {
+            "word": "big asshole",
+            "transcription": "[big asshole]"
+          }
+        },
+        "transcription": "[ka.βɾoˈna.θo]"
+      },
+      {
+        "word": "cojones",
+        "translations": {
+          "russian": {
+            "word": "яйца",
+            "transcription": "[яйца]"
+          },
+          "english": {
+            "word": "balls",
+            "transcription": "[balls]"
+          }
+        },
+        "transcription": "[koˈxo.nes]"
+      },
+      {
+        "word": "pija",
+        "translations": {
+          "russian": {
+            "word": "хуй",
+            "transcription": "[xuj]"
+          },
+          "english": {
+            "word": "cock",
+            "transcription": "[kɒk]"
+          }
+        },
+        "transcription": "[ˈpi.xa]"
+      },
+      {
+        "word": "culero",
+        "translations": {
+          "russian": {
+            "word": "жополиз",
+            "transcription": "[жополиз]"
+          },
+          "english": {
+            "word": "asshole",
+            "transcription": "[ˈæs.hoʊl]"
+          }
+        },
+        "transcription": "[kuˈle.ɾo]"
+      },
+      {
+        "word": "chingón",
+        "translations": {
+          "russian": {
+            "word": "ебарь",
+            "transcription": "[jeˈbarʲ]"
+          },
+          "english": {
+            "word": "badass",
+            "transcription": "[badass]"
+          }
+        },
+        "transcription": "[tʃinˈɡon]"
+      },
+      {
+        "word": "huevos",
+        "translations": {
+          "russian": {
+            "word": "яйца",
+            "transcription": "[яйца]"
+          },
+          "english": {
+            "word": "balls",
+            "transcription": "[balls]"
+          }
+        },
+        "transcription": "[ˈwe.βos]"
+      },
+      {
+        "word": "mamada",
+        "translations": {
+          "russian": {
+            "word": "хуйня",
+            "transcription": "[xujˈnya]"
+          },
+          "english": {
+            "word": "bullshit",
+            "transcription": "[ˈbʊl.ʃɪt]"
+          }
+        },
+        "transcription": "[maˈma.ða]"
+      },
+      {
+        "word": "cagar",
+        "translations": {
+          "russian": {
+            "word": "срать",
+            "transcription": "[sratʲ]"
+          },
+          "english": {
+            "word": "shit",
+            "transcription": "[ʃɪt]"
+          }
+        },
+        "transcription": "[kaˈɡar]"
+      },
+      {
+        "word": "putón",
+        "translations": {
+          "russian": {
+            "word": "блядина",
+            "transcription": "[blyaˈdi.na]"
+          },
+          "english": {
+            "word": "slut",
+            "transcription": "[slʌt]"
+          }
+        },
+        "transcription": "[puˈton]"
+      },
+      {
+        "word": "marica",
+        "translations": {
+          "russian": {
+            "word": "пидорас",
+            "transcription": "[pi.doˈras]"
+          },
+          "english": {
+            "word": "faggot",
+            "transcription": "[ˈfæɡ.ət]"
+          }
+        },
+        "transcription": "[maˈɾi.ka]"
+      },
+      {
+        "word": "joto",
+        "translations": {
+          "russian": {
+            "word": "пидор",
+            "transcription": "[piˈdor]"
+          },
+          "english": {
+            "word": "faggot",
+            "transcription": "[ˈfæɡ.ət]"
+          }
+        },
+        "transcription": "[ˈxo.to]"
+      },
+      {
+        "word": "chingadera",
+        "translations": {
+          "russian": {
+            "word": "хуйня",
+            "transcription": "[xujˈnya]"
+          },
+          "english": {
+            "word": "shit",
+            "transcription": "[ʃɪt]"
+          }
+        },
+        "transcription": "[tʃin.ɡaˈðe.ɾa]"
+      },
+      {
+        "word": "cagarla",
+        "translations": {
+          "russian": {
+            "word": "засрать",
+            "transcription": "[zaˈsratʲ]"
+          },
+          "english": {
+            "word": "fuck up",
+            "transcription": "[fuck up]"
+          }
+        },
+        "transcription": "[kaˈɡar.la]"
+      },
+      {
+        "word": "pelotudo",
+        "translations": {
+          "russian": {
+            "word": "долбоёб",
+            "transcription": "[dol.boˈjop]"
+          },
+          "english": {
+            "word": "dumbass",
+            "transcription": "[ˈdʌm.æs]"
+          }
+        },
+        "transcription": "[pe.loˈtu.ðo]"
+      },
+      {
+        "word": "tarado",
+        "translations": {
+          "russian": {
+            "word": "дебил",
+            "transcription": "[дебил]"
+          },
+          "english": {
+            "word": "retard",
+            "transcription": "[rɪˈtɑrd]"
+          }
+        },
+        "transcription": "[taˈɾa.ðo]"
+      },
+      {
+        "word": "concha",
+        "translations": {
+          "russian": {
+            "word": "пизда",
+            "transcription": "[pizˈda]"
+          },
+          "english": {
+            "word": "cunt",
+            "transcription": "[kʌnt]"
+          }
+        },
+        "transcription": "[ˈkon.tʃa]"
+      },
+      {
+        "word": "putear",
+        "translations": {
+          "russian": {
+            "word": "ебать",
+            "transcription": "[jeˈbatʲ]"
+          },
+          "english": {
+            "word": "fuck around",
+            "transcription": "[fuck around]"
+          }
+        },
+        "transcription": "[pu.teˈar]"
+      },
+      {
+        "word": "mierdero",
+        "translations": {
+          "russian": {
+            "word": "сраный",
+            "transcription": "[ˈsra.nɨj]"
+          },
+          "english": {
+            "word": "shitty",
+            "transcription": "[ˈʃɪt.i]"
+          }
+        },
+        "transcription": "[mjerˈðe.ɾo]"
+      },
+      {
+        "word": "cabrona",
+        "translations": {
+          "russian": {
+            "word": "сука",
+            "transcription": "[ˈsu.ka]"
+          },
+          "english": {
+            "word": "bitch",
+            "transcription": "[bɪtʃ]"
+          }
+        },
+        "transcription": "[kaˈβɾo.na]"
+      },
+      {
+        "word": "culiao",
+        "translations": {
+          "russian": {
+            "word": "жополиз",
+            "transcription": "[жополиз]"
+          },
+          "english": {
+            "word": "asshole",
+            "transcription": "[ˈæs.hoʊl]"
+          }
+        },
+        "transcription": "[kuˈlja.o]"
+      },
+      {
+        "word": "pajero",
+        "translations": {
+          "russian": {
+            "word": "дрочер",
+            "transcription": "[дрочер]"
+          },
+          "english": {
+            "word": "wanker",
+            "transcription": "[ˈwæŋ.kər]"
+          }
+        },
+        "transcription": "[paˈxe.ɾo]"
+      },
+      {
+        "word": "huevada",
+        "translations": {
+          "russian": {
+            "word": "хуйня",
+            "transcription": "[xujˈnya]"
+          },
+          "english": {
+            "word": "bullshit",
+            "transcription": "[ˈbʊl.ʃɪt]"
+          }
+        },
+        "transcription": "[weˈβa.ða]"
+      },
+      {
+        "word": "putazo",
+        "translations": {
+          "russian": {
+            "word": "хуяк",
+            "transcription": "[xuˈjak]"
+          },
+          "english": {
+            "word": "hit",
+            "transcription": "[hit]"
+          }
+        },
+        "transcription": "[puˈta.θo]"
+      },
+      {
+        "word": "mierdita",
+        "translations": {
+          "russian": {
+            "word": "хуйняшка",
+            "transcription": "[xujˈnyaʃ.ka]"
+          },
+          "english": {
+            "word": "little shit",
+            "transcription": "[little shit]"
+          }
+        },
+        "transcription": "[mjerˈði.ta]"
+      },
+      {
+        "word": "jodete",
+        "translations": {
+          "russian": {
+            "word": "нахуй",
+            "transcription": "[naˈxuj]"
+          },
+          "english": {
+            "word": "fuck off",
+            "transcription": "[fuck off]"
+          }
+        },
+        "transcription": "[ˈxo.ðe.te]"
+      },
+      {
+        "word": "culpar",
+        "translations": {
+          "russian": {
+            "word": "винить",
+            "transcription": "[винить]"
+          },
+          "english": {
+            "word": "blame",
+            "transcription": "[blame]"
+          }
+        },
+        "transcription": "[kulˈpar]"
+      },
+      {
+        "word": "pinchazo",
+        "translations": {
+          "russian": {
+            "word": "хуй",
+            "transcription": "[xuj]"
+          },
+          "english": {
+            "word": "prick",
+            "transcription": "[prɪk]"
+          }
+        },
+        "transcription": "[pinˈtʃa.θo]"
+      },
+      {
+        "word": "mamadera",
+        "translations": {
+          "russian": {
+            "word": "хуйня",
+            "transcription": "[xujˈnya]"
+          },
+          "english": {
+            "word": "bullshit",
+            "transcription": "[ˈbʊl.ʃɪt]"
+          }
+        },
+        "transcription": "[ma.maˈðe.ɾa]"
+      },
+      {
+        "word": "cagonazo",
+        "translations": {
+          "russian": {
+            "word": "трусишка",
+            "transcription": "[трусишка]"
+          },
+          "english": {
+            "word": "big coward",
+            "transcription": "[big coward]"
+          }
+        },
+        "transcription": "[ka.ɡoˈna.θo]"
+      },
+      {
+        "word": "putilla",
+        "translations": {
+          "russian": {
+            "word": "сучка",
+            "transcription": "[ˈsutʃ.ka]"
+          },
+          "english": {
+            "word": "little bitch",
+            "transcription": "[little bitch]"
+          }
+        },
+        "transcription": "[puˈti.ʎa]"
+      },
+      {
+        "word": "mariconada",
+        "translations": {
+          "russian": {
+            "word": "пидорство",
+            "transcription": "[пидорство]"
+          },
+          "english": {
+            "word": "faggotry",
+            "transcription": "[faggotry]"
+          }
+        },
+        "transcription": "[ma.ɾi.koˈna.ða]"
+      },
+      {
+        "word": "vergon",
+        "translations": {
+          "russian": {
+            "word": "хуйло",
+            "transcription": "[xujˈlo]"
+          },
+          "english": {
+            "word": "dickhead",
+            "transcription": "[ˈdɪk.hɛd]"
+          }
+        },
+        "transcription": "[berˈɡon]"
+      },
+      {
+        "word": "chingado",
+        "translations": {
+          "russian": {
+            "word": "ебаный",
+            "transcription": "[jeˈba.nɨj]"
+          },
+          "english": {
+            "word": "fucked",
+            "transcription": "[fucked]"
+          }
+        },
+        "transcription": "[tʃinˈɡa.ðo]"
+      },
+      {
+        "word": "culote",
+        "translations": {
+          "russian": {
+            "word": "жопища",
+            "transcription": "[жопища]"
+          },
+          "english": {
+            "word": "big ass",
+            "transcription": "[big ass]"
+          }
+        },
+        "transcription": "[kuˈlo.te]"
+      },
+      {
+        "word": "pichula",
+        "translations": {
+          "russian": {
+            "word": "хуй",
+            "transcription": "[xuj]"
+          },
+          "english": {
+            "word": "dick",
+            "transcription": "[dɪk]"
+          }
+        },
+        "transcription": "[piˈtʃu.la]"
+      },
+      {
+        "word": "cabróncito",
+        "translations": {
+          "russian": {
+            "word": "мудак",
+            "transcription": "[muˈdak]"
+          },
+          "english": {
+            "word": "little asshole",
+            "transcription": "[little asshole]"
+          }
+        },
+        "transcription": "[ka.βɾonˈθi.to]"
+      },
+      {
+        "word": "coñazo",
+        "translations": {
+          "russian": {
+            "word": "пиздец",
+            "transcription": "[pizˈdʲets]"
+          },
+          "english": {
+            "word": "pain in the ass",
+            "transcription": "[pain in the ass]"
+          }
+        },
+        "transcription": "[koˈɲa.θo]"
+      },
+      {
+        "word": "pendejote",
+        "translations": {
+          "russian": {
+            "word": "долбоёбище",
+            "transcription": "[долбоёбище]"
+          },
+          "english": {
+            "word": "big dumbass",
+            "transcription": "[big dumbass]"
+          }
+        },
+        "transcription": "[pen.deˈxo.te]"
+      },
+      {
+        "word": "carajada",
+        "translations": {
+          "russian": {
+            "word": "хуйня",
+            "transcription": "[xujˈnya]"
+          },
+          "english": {
+            "word": "bullshit",
+            "transcription": "[ˈbʊl.ʃɪt]"
+          }
+        },
+        "transcription": "[ka.ɾaˈxa.ða]"
+      },
+      {
+        "word": "puteria",
+        "translations": {
+          "russian": {
+            "word": "блядство",
+            "transcription": "[ˈblyatʲ.stvo]"
+          },
+          "english": {
+            "word": "whoring",
+            "transcription": "[whoring]"
+          }
+        },
+        "transcription": "[pu.teˈɾi.a]"
+      },
+      {
+        "word": "mierdazo",
+        "translations": {
+          "russian": {
+            "word": "срака",
+            "transcription": "[ˈsra.ka]"
+          },
+          "english": {
+            "word": "shitload",
+            "transcription": "[shitload]"
+          }
+        },
+        "transcription": "[mjerˈða.θo]"
+      },
+      {
+        "word": "jodidamente",
+        "translations": {
+          "russian": {
+            "word": "пиздецки",
+            "transcription": "[pizˈdʲets.ki]"
+          },
+          "english": {
+            "word": "fucking",
+            "transcription": "[ˈfʌk.ɪŋ]"
+          }
+        },
+        "transcription": "[xo.ðiˈða.men.te]"
+      },
+      {
+        "word": "culiado",
+        "translations": {
+          "russian": {
+            "word": "жополиз",
+            "transcription": "[жополиз]"
+          },
+          "english": {
+            "word": "asshole",
+            "transcription": "[ˈæs.hoʊl]"
+          }
+        },
+        "transcription": "[kuˈlja.ðo]"
+      },
+      {
+        "word": "pajote",
+        "translations": {
+          "russian": {
+            "word": "дрочер",
+            "transcription": "[дрочер]"
+          },
+          "english": {
+            "word": "wanker",
+            "transcription": "[ˈwæŋ.kər]"
+          }
+        },
+        "transcription": "[paˈxo.te]"
+      },
+      {
+        "word": "hueveteo",
+        "translations": {
+          "russian": {
+            "word": "хуйня",
+            "transcription": "[xujˈnya]"
+          },
+          "english": {
+            "word": "bullshit",
+            "transcription": "[ˈbʊl.ʃɪt]"
+          }
+        },
+        "transcription": "[we.βeˈte.o]"
+      },
+      {
+        "word": "chingadazo",
+        "translations": {
+          "russian": {
+            "word": "ебануть",
+            "transcription": "[je.baˈnutʲ]"
+          },
+          "english": {
+            "word": "fuck up",
+            "transcription": "[fuck up]"
+          }
+        },
+        "transcription": "[tʃin.ɡaˈða.θo]"
+      },
+      {
+        "word": "putamadre",
+        "translations": {
+          "russian": {
+            "word": "сука мать",
+            "transcription": "[сука мать]"
+          },
+          "english": {
+            "word": "motherfucker",
+            "transcription": "[ˈmʌð.ərˌfʌk.ər]"
+          }
+        },
+        "transcription": "[ˈpu.taˈma.ðɾe]"
+      },
+      {
+        "word": "cagadita",
+        "translations": {
+          "russian": {
+            "word": "хуйняшка",
+            "transcription": "[xujˈnyaʃ.ka]"
+          },
+          "english": {
+            "word": "little fuck-up",
+            "transcription": "[little fuck-up]"
+          }
+        },
+        "transcription": "[ka.ɡaˈði.ta]"
+      },
+      {
+        "word": "maricónazo",
+        "translations": {
+          "russian": {
+            "word": "пидорас",
+            "transcription": "[pi.doˈras]"
+          },
+          "english": {
+            "word": "big faggot",
+            "transcription": "[big faggot]"
+          }
+        },
+        "transcription": "[ma.ɾi.koˈna.θo]"
+      },
+      {
+        "word": "verguenza",
+        "translations": {
+          "russian": {
+            "word": "срамота",
+            "transcription": "[sraˈmo.ta]"
+          },
+          "english": {
+            "word": "shame",
+            "transcription": "[shame]"
+          }
+        },
+        "transcription": "[berˈɡwen.θa]"
+      },
+      {
+        "word": "putañero",
+        "translations": {
+          "russian": {
+            "word": "блядун",
+            "transcription": "[блядун]"
+          },
+          "english": {
+            "word": "whoremonger",
+            "transcription": "[whoremonger]"
+          }
+        },
+        "transcription": "[pu.taˈɲe.ɾo]"
+      },
+      {
+        "word": "mierdica",
+        "translations": {
+          "russian": {
+            "word": "хуйня",
+            "transcription": "[xujˈnya]"
+          },
+          "english": {
+            "word": "shitty",
+            "transcription": "[ˈʃɪt.i]"
+          }
+        },
+        "transcription": "[mjerˈði.ka]"
+      },
+      {
+        "word": "cabroncete",
+        "translations": {
+          "russian": {
+            "word": "мудак",
+            "transcription": "[muˈdak]"
+          },
+          "english": {
+            "word": "little asshole",
+            "transcription": "[little asshole]"
+          }
+        },
+        "transcription": "[ka.βɾonˈθe.te]"
+      },
+      {
+        "word": "culamen",
+        "translations": {
+          "russian": {
+            "word": "жопища",
+            "transcription": "[жопища]"
+          },
+          "english": {
+            "word": "big ass",
+            "transcription": "[big ass]"
+          }
+        },
+        "transcription": "[kuˈla.men]"
+      },
+      {
+        "word": "pajilla",
+        "translations": {
+          "russian": {
+            "word": "дрочка",
+            "transcription": "[дрочка]"
+          },
+          "english": {
+            "word": "wank",
+            "transcription": "[wank]"
+          }
+        },
+        "transcription": "[paˈxi.ʎa]"
+      },
+      {
+        "word": "huevonazo",
+        "translations": {
+          "russian": {
+            "word": "лентяй",
+            "transcription": "[лентяй]"
+          },
+          "english": {
+            "word": "lazy bastard",
+            "transcription": "[lazy bastard]"
+          }
+        },
+        "transcription": "[we.βoˈna.θo]"
+      },
+      {
+        "word": "putarraco",
+        "translations": {
+          "russian": {
+            "word": "блядища",
+            "transcription": "[blyˈdiʃ.tʃa]"
+          },
+          "english": {
+            "word": "big whore",
+            "transcription": "[big whore]"
+          }
+        },
+        "transcription": "[pu.taˈra.ko]"
+      },
+      {
+        "word": "cagate",
+        "translations": {
+          "russian": {
+            "word": "сраться",
+            "transcription": "[ˈsratʲ.sya]"
+          },
+          "english": {
+            "word": "shit yourself",
+            "transcription": "[shit yourself]"
+          }
+        },
+        "transcription": "[kaˈɡa.te]"
+      },
+      {
+        "word": "maricueca",
+        "translations": {
+          "russian": {
+            "word": "пидор",
+            "transcription": "[piˈdor]"
+          },
+          "english": {
+            "word": "faggot",
+            "transcription": "[ˈfæɡ.ət]"
+          }
+        },
+        "transcription": "[ma.ɾiˈkwe.ka]"
+      },
+      {
+        "word": "vergatario",
+        "translations": {
+          "russian": {
+            "word": "хуйня",
+            "transcription": "[xujˈnya]"
+          },
+          "english": {
+            "word": "dickhead",
+            "transcription": "[ˈdɪk.hɛd]"
+          }
+        },
+        "transcription": "[ber.ɡaˈta.ɾjo]"
+      },
+      {
+        "word": "putisima",
+        "translations": {
+          "russian": {
+            "word": "блядища",
+            "transcription": "[blyˈdiʃ.tʃa]"
+          },
+          "english": {
+            "word": "fucking whore",
+            "transcription": "[fucking whore]"
+          }
+        },
+        "transcription": "[puˈti.si.ma]"
+      },
+      {
+        "word": "mierdoso",
+        "translations": {
+          "russian": {
+            "word": "сраный",
+            "transcription": "[ˈsra.nɨj]"
+          },
+          "english": {
+            "word": "shitty",
+            "transcription": "[ˈʃɪt.i]"
+          }
+        },
+        "transcription": "[mjerˈðo.so]"
+      },
+      {
+        "word": "cabronada",
+        "translations": {
+          "russian": {
+            "word": "мудачество",
+            "transcription": "[мудачество]"
+          },
+          "english": {
+            "word": "assholery",
+            "transcription": "[assholery]"
+          }
+        },
+        "transcription": "[ka.βɾoˈna.ða]"
+      },
+      {
+        "word": "culillo",
+        "translations": {
+          "russian": {
+            "word": "жопка",
+            "transcription": "[жопка]"
+          },
+          "english": {
+            "word": "little ass",
+            "transcription": "[little ass]"
+          }
+        },
+        "transcription": "[kuˈli.ʎo]"
+      },
+      {
+        "word": "pajear",
+        "translations": {
+          "russian": {
+            "word": "дрочить",
+            "transcription": "[дрочить]"
+          },
+          "english": {
+            "word": "jerk off",
+            "transcription": "[jerk off]"
+          }
+        },
+        "transcription": "[pa.xeˈar]"
+      },
+      {
+        "word": "huevear",
+        "translations": {
+          "russian": {
+            "word": "хуйню нести",
+            "transcription": "[хуйню нести]"
+          },
+          "english": {
+            "word": "fuck around",
+            "transcription": "[fuck around]"
+          }
+        },
+        "transcription": "[we.βeˈar]"
+      },
+      {
+        "word": "putona",
+        "translations": {
+          "russian": {
+            "word": "блядина",
+            "transcription": "[blyaˈdi.na]"
+          },
+          "english": {
+            "word": "slut",
+            "transcription": "[slʌt]"
+          }
+        },
+        "transcription": "[puˈto.na]"
+      },
+      {
+        "word": "cagadera",
+        "translations": {
+          "russian": {
+            "word": "срака",
+            "transcription": "[ˈsra.ka]"
+          },
+          "english": {
+            "word": "shitshow",
+            "transcription": "[shitshow]"
+          }
+        },
+        "transcription": "[ka.ɡaˈðe.ɾa]"
+      },
+      {
+        "word": "jodidón",
+        "translations": {
+          "russian": {
+            "word": "пиздец",
+            "transcription": "[pizˈdʲets]"
+          },
+          "english": {
+            "word": "big fuck-up",
+            "transcription": "[big fuck-up]"
+          }
+        },
+        "transcription": "[xo.ðiˈðon]"
+      },
+      {
+        "word": "mierdonga",
+        "translations": {
+          "russian": {
+            "word": "хуйня",
+            "transcription": "[xujˈnya]"
+          },
+          "english": {
+            "word": "shitty thing",
+            "transcription": "[shitty thing]"
+          }
+        },
+        "transcription": "[mjerˈðon.ɡa]"
+      },
+      {
+        "word": "culotote",
+        "translations": {
+          "russian": {
+            "word": "жопища",
+            "transcription": "[жопища]"
+          },
+          "english": {
+            "word": "huge ass",
+            "transcription": "[huge ass]"
+          }
+        },
+        "transcription": "[ku.loˈto.te]"
+      },
+      {
+        "word": "pendejito",
+        "translations": {
+          "russian": {
+            "word": "долбоёбик",
+            "transcription": "[долбоёбик]"
+          },
+          "english": {
+            "word": "little dumbass",
+            "transcription": "[little dumbass]"
+          }
+        },
+        "transcription": "[pen.deˈxi.to]"
+      },
+      {
+        "word": "putilla",
+        "translations": {
+          "russian": {
+            "word": "сучка",
+            "transcription": "[ˈsutʃ.ka]"
+          },
+          "english": {
+            "word": "little bitch",
+            "transcription": "[little bitch]"
+          }
+        },
+        "transcription": "[puˈti.ʎa]"
+      },
+      {
+        "word": "carajote",
+        "translations": {
+          "russian": {
+            "word": "придурок",
+            "transcription": "[придурок]"
+          },
+          "english": {
+            "word": "jerk",
+            "transcription": "[dʒɜrk]"
+          }
+        },
+        "transcription": "[ka.ɾaˈxo.te]"
+      },
+      {
+        "word": "mierdazo",
+        "translations": {
+          "russian": {
+            "word": "сраный",
+            "transcription": "[ˈsra.nɨj]"
+          },
+          "english": {
+            "word": "shitload",
+            "transcription": "[shitload]"
+          }
+        },
+        "transcription": "[mjerˈða.θo]"
+      }
+    ]
   }
+}

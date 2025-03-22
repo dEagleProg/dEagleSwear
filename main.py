@@ -9,15 +9,10 @@ import os
 
 # Загрузка переменных из .env
 load_dotenv()
-
-# Получение токена из переменной окружения
 API_TOKEN = os.getenv("BOT_TOKEN")
-
-# Проверка, что токен загружен
 if not API_TOKEN:
     raise ValueError("Токен бота не найден в файле .env. Укажи BOT_TOKEN в .env!")
 
-# Инициализация бота и диспетчера
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
 
@@ -43,8 +38,8 @@ async def send_welcome(message: Message):
         "Используй команды:\n"
         "/russian — случайный русский мат\n"
         "/english — случайный английский мат\n"
-        "/spanish — случайный испанский мат"
-
+        "/spanish — случайный испанский мат\n\n"
+        "Транскрипция поможет тебе правильно произнести слова!"
     )
 
 # Обработчик команды /russian
@@ -52,9 +47,17 @@ async def send_welcome(message: Message):
 async def random_russian_swear(message: Message):
     swear = random.choice(data["swear_words"]["russian"])
     word = swear["word"]
-    eng_trans = swear["translations"]["english"]
-    spa_trans = swear["translations"]["spanish"]
-    response = f"{word} (🏴󠁧󠁢󠁥󠁮󠁧󠁿{eng_trans}, 🇪🇸{spa_trans})"
+    transcription = swear["transcription"]
+    eng_trans = swear["translations"]["english"]["word"]
+    eng_transcription = swear["translations"]["english"]["transcription"]
+    spa_trans = swear["translations"]["spanish"]["word"]
+    spa_transcription = swear["translations"]["spanish"]["transcription"]
+    
+    response = (
+        f"⚪ {word} ({transcription})\n"
+        f"🏴󠁧󠁢󠁥󠁮󠁧󠁿 {eng_trans} ({eng_transcription})\n"
+        f"🇪🇸 {spa_trans} ({spa_transcription})"
+    )
     await message.reply(response)
 
 # Обработчик команды /english
@@ -62,9 +65,17 @@ async def random_russian_swear(message: Message):
 async def random_english_swear(message: Message):
     swear = random.choice(data["swear_words"]["english"])
     word = swear["word"]
-    rus_trans = swear["translations"]["russian"]
-    spa_trans = swear["translations"]["spanish"]
-    response = f"🏴󠁧󠁢󠁥󠁮󠁧󠁿{word} ({rus_trans}, 🇪🇸{spa_trans})"
+    transcription = swear["transcription"]
+    rus_trans = swear["translations"]["russian"]["word"]
+    rus_transcription = swear["translations"]["russian"]["transcription"]
+    spa_trans = swear["translations"]["spanish"]["word"]
+    spa_transcription = swear["translations"]["spanish"]["transcription"]
+    
+    response = (
+        f"🏴󠁧󠁢󠁥󠁮󠁧󠁿 {word} ({transcription})\n"
+        f"⚪ {rus_trans} ({rus_transcription})\n"
+        f"🇪🇸 {spa_trans} ({spa_transcription})"
+    )
     await message.reply(response)
 
 # Обработчик команды /spanish
@@ -72,14 +83,21 @@ async def random_english_swear(message: Message):
 async def random_spanish_swear(message: Message):
     swear = random.choice(data["swear_words"]["spanish"])
     word = swear["word"]
-    rus_trans = swear["translations"]["russian"]
-    eng_trans = swear["translations"]["english"]
-    response = f"🇪🇸{word} ({rus_trans}, 🏴󠁧󠁢󠁥󠁮󠁧󠁿{eng_trans})"
+    transcription = swear["transcription"]
+    rus_trans = swear["translations"]["russian"]["word"]
+    rus_transcription = swear["translations"]["russian"]["transcription"]
+    eng_trans = swear["translations"]["english"]["word"]
+    eng_transcription = swear["translations"]["english"]["transcription"]
+    
+    response = (
+        f"🇪🇸 {word} ({transcription})\n"
+        f"⚪ {rus_trans} ({rus_transcription})\n"
+        f"🏴󠁧󠁢󠁥󠁮󠁧󠁿 {eng_trans} ({eng_transcription})"
+    )
     await message.reply(response)
 
 # Запуск бота
 async def main():
-    # Установка команд в меню при запуске
     await set_commands(bot)
     await dp.start_polling(bot)
 
