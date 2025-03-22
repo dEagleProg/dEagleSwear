@@ -39,7 +39,7 @@ async def set_commands(bot: Bot):
 @dp.message(Command("start"))
 async def send_welcome(message: Message):
     await message.reply(
-        "Привет! Я бот для изучения мата на трёх языках.\n"
+        "Приветсвую, кожаный. \nЯ бот для изучения мата на трёх языках.\n"
         "Используй команды:\n"
         "/russian — случайный русский мат\n"
         "/english — случайный английский мат\n"
