@@ -44,6 +44,7 @@ async def send_welcome(message: Message):
         "/russian — случайный русский мат\n"
         "/english — случайный английский мат\n"
         "/spanish — случайный испанский мат"
+        
     )
 
 # Обработчик команды /russian
