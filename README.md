@@ -1,5 +1,3 @@
-Бот для познания самого важного словарного лексикона на трёх языках:
+## Bot for learning the most important vocabulary in three languages:
 
-🏳 Русский
-🏴󠁧󠁢󠁥󠁮󠁧󠁿 Английский
-🇪🇸 Испанский 
+🏳 Russian 🏴󠁧󠁢󠁥󠁮󠁧󠁿 English 🇪🇸 Spanish
